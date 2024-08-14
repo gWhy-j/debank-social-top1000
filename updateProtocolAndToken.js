@@ -67,7 +67,7 @@ async function walletFetch(userId) {
   }
 }
 
-async function getProtocolsAndSort(path) {
+async function updateProtocolAndToken(path) {
   // JSON 파일 읽기
   const rawData = fs.readFileSync(`${path}/sortedByNetWorth.json`, "utf8");
   const data = JSON.parse(rawData).slice(0, 100);
@@ -115,4 +115,4 @@ async function getProtocolsAndSort(path) {
 
 const path = process.argv[2];
 
-getProtocolsAndSort(path);
+updateProtocolAndToken(path);
