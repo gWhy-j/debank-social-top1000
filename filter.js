@@ -17,12 +17,12 @@ function sortAndFilterRankData(path) {
   }));
 
   // usd_value 기준으로 내림차순 정렬
-  filteredData.sort((a, b) => b.usd_value - a.usd_value);
+  // filteredData.sort((a, b) => b.usd_value - a.usd_value);
 
   // 결과를 JSON 파일로 저장
-  fs.writeFileSync(`${path}/sortedByNetWorth.json`, JSON.stringify(filteredData, null, 2));
+  fs.writeFileSync(`${path}/filteredTop1000.json`, JSON.stringify(filteredData, null, 2));
 
-  console.log("Data has been sorted and saved to sortedByNetWorth.json");
+  console.log("Data has been sorted and saved to filteredTop1000.json");
 
   return filteredData;
 }
