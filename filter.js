@@ -12,6 +12,7 @@ function sortAndFilterRankData(path) {
     twitter_id: item.twitter_id,
     telegram_id: item.telegram_id,
     usd_value: item.desc.usd_value,
+    born_at: item.desc.born_at,
     logo_url: item.logo_url,
     logo_thumbnail_url: item.logo_thumbnail_url,
   }));
