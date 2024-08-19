@@ -7,7 +7,7 @@ function protocolFetch(userId) {
     const rawData = fs.readFileSync(`${path}/kol_data/protocols/${userId}.json`, "utf8");
     const data = JSON.parse(rawData);
 
-    const protocolCount = data.filter((protocol) => protocol.net_usd_value >= 1).length;
+    const protocolCount = data.filter((protocol) => protocol.net_usd_value >= 1000).length;
     const chainTotals = data.reduce((acc, protocol) => {
       if (!acc[protocol.chain]) {
         acc[protocol.chain] = 0;
