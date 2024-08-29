@@ -10,7 +10,12 @@ function sortAndFilterRankData(path) {
 
   for (const whiz of data) {
     if (defiWhizs.includes(whiz.id)) {
-      filteredData.push(whiz);
+      filteredData.push({
+        name: whiz.web3_id,
+        address: whiz.id,
+        twitterHandle: whiz.twitter_id ?? "",
+        profileImageUrl: whiz.logo_thumbnail_url,
+      });
     }
   }
 
