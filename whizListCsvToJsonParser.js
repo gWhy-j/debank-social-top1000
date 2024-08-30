@@ -11,14 +11,18 @@ function sortAndFilterRankData(path) {
   // CSV 데이터를 행으로 분리
   const rows = csvData.split("\n");
 
+  const defiWhizList = {};
+
   // 각 행을 객체로 변환하여 배열 생성
-  const defiWhizList = rows.map((row) => {
+  rows.forEach((row) => {
     const [name, address, twitterHandle] = row.split(",").map((item) => item.trim());
-    return { name, address, twitterHandle: twitterHandle === "-" ? "" : twitterHandle, profileImageUrl: "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg" };
+    if (!defiWhizList[address.toLowerCase()]) {
+      defiWhizList[address.toLowerCase()] = { name, address, twitterHandle: twitterHandle === "-" ? "" : twitterHandle, profileImageUrl: "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg" };
+    }
   });
 
   // 결과를 JSON 파일로 저장
-  fs.writeFileSync(`${path}/defiWhizListExternal.json`, JSON.stringify(defiWhizList, null, 2));
+  fs.writeFileSync(`${path}/defiWhizListExternal.json`, JSON.stringify(Object.values(defiWhizList), null, 2));
 
   console.log("Data has been sorted and saved to defiWhizListExternal.json");
 
