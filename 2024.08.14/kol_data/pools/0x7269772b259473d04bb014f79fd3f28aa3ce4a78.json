@@ -1,0 +1,88 @@
+{
+  "user": {
+    "name": "SNZ Holding",
+    "address": "0x7269772b259473d04bb014f79fd3f28aa3ce4a78",
+    "twitterHandle": "snzholding",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "sablier",
+      "chain": "eth",
+      "name": "Sablier",
+      "site_url": "https://app.sablier.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/sablier/9e38761f6289bb491c6c9f0863c7ee07.png",
+      "has_supported_portfolio": true,
+      "tvl": 348976623.62460935,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 76160.00237999999,
+            "debt_usd_value": 0,
+            "net_usd_value": 76160.00237999999
+          },
+          "asset_dict": {
+            "0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9": 10666667
+          },
+          "asset_token_list": [
+            {
+              "id": "0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9",
+              "chain": "eth",
+              "name": "Unagi Token",
+              "symbol": "UNA",
+              "display_symbol": null,
+              "optimized_symbol": "UNA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9/5cc108f241bc0c5946f927b98a980efb.png",
+              "protocol_id": "",
+              "price": 0.00714,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1705332047,
+              "amount": 10666667,
+              "claimable_amount": 1829385.177136822
+            }
+          ],
+          "update_at": 1725490205,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9",
+              "chain": "eth",
+              "name": "Unagi Token",
+              "symbol": "UNA",
+              "display_symbol": null,
+              "optimized_symbol": "UNA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9/5cc108f241bc0c5946f927b98a980efb.png",
+              "protocol_id": "",
+              "price": 0.00714,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1705332047,
+              "amount": 10666667,
+              "claimable_amount": 1829385.177136822
+            },
+            "end_at": 1810087200
+          },
+          "proxy_detail": {},
+          "position_index": "1685",
+          "pool": {
+            "id": "0x7cc7e125d83a581ff438608490cc0f7bdff79127:receiver",
+            "chain": "eth",
+            "project_id": "sablier",
+            "adapter_id": "sablier_vesting_v2_receiver",
+            "controller": "0x7cc7e125d83a581ff438608490cc0f7bdff79127",
+            "index": "receiver",
+            "time_at": 1703004335
+          }
+        }
+      ]
+    }
+  ]
+}

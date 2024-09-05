@@ -1,0 +1,164 @@
+{
+  "user": {
+    "name": "Maven11",
+    "address": "0x1d812a7e929d4dbe237926ed8e7c31434b9ab469",
+    "twitterHandle": "Maven11Capital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "lido",
+      "chain": "eth",
+      "name": "LIDO",
+      "site_url": "https://stake.lido.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/lido/081388ebc44fa042561749bd5338d49e.png",
+      "has_supported_portfolio": true,
+      "tvl": 23331317242.86258,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 705020.8647977655,
+            "debt_usd_value": 0,
+            "net_usd_value": 705020.8647977655
+          },
+          "asset_dict": {
+            "eth": 292.58834030451754
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2409.6,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 292.58834030451754
+            }
+          ],
+          "update_at": 1725466225,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2409.6,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 292.58834030451754
+              }
+            ],
+            "description": "stETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "chain": "eth",
+            "project_id": "lido",
+            "adapter_id": "lido_staked",
+            "controller": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "index": null,
+            "time_at": 1608242396
+          }
+        }
+      ]
+    },
+    {
+      "id": "swellnetwork",
+      "chain": "eth",
+      "name": "Swell",
+      "site_url": "https://app.swellnetwork.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/swellnetwork/8c3b13cd64f69e5f932f5241ffddf79b.png",
+      "has_supported_portfolio": true,
+      "tvl": 1626920324.696477,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2508643.7313839043,
+            "debt_usd_value": 0,
+            "net_usd_value": 2508643.7313839043
+          },
+          "asset_dict": {
+            "eth": 1041.1038061852194
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2409.6,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 1041.1038061852194
+            }
+          ],
+          "update_at": 1725488875,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2409.6,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 1041.1038061852194
+              }
+            ],
+            "description": "swETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xf951e335afb289353dc249e82926178eac7ded78",
+            "chain": "eth",
+            "project_id": "swellnetwork",
+            "adapter_id": "swell_yield",
+            "controller": "0xf951e335afb289353dc249e82926178eac7ded78",
+            "index": null,
+            "time_at": 1681288427
+          }
+        }
+      ]
+    }
+  ]
+}
