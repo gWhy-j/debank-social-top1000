@@ -76,7 +76,7 @@ async function updateProtocolAndToken(path) {
       // 0.1초 대기
       await new Promise((resolve) => setTimeout(resolve, 100));
     }
-    console.log("Data has been sorted and saved to top100.json");
+    console.log(`Data has been sorted and saved in ${path}/kol_data`);
   } catch (error) {
     console.log(error);
   }
