@@ -1,0 +1,241 @@
+{
+  "user": {
+    "name": "Galaxy Digital 2",
+    "address": "0x13c474e6181ff3df02ab9c6b529bc639962bb50e",
+    "twitterHandle": "galaxyhq",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "ethena",
+      "chain": "eth",
+      "name": "Ethena",
+      "site_url": "https://www.ethena.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/ethena/bb8bd15480078225e9eca0f9b52415d4.png",
+      "has_supported_portfolio": true,
+      "tvl": 1841022351.7693186,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 14904410.68462323,
+            "debt_usd_value": 0,
+            "net_usd_value": 14904410.68462323
+          },
+          "asset_dict": {
+            "0x4c9edd5852cd905f086c759e8383e09bff1e68b3": 14926283.16655
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+              "chain": "eth",
+              "name": "USDe",
+              "symbol": "USDe",
+              "display_symbol": null,
+              "optimized_symbol": "USDe",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+              "protocol_id": "ethena",
+              "price": 0.9985346330574925,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1699979555,
+              "amount": 14926283.16655
+            }
+          ],
+          "update_at": 1725656477,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+                "chain": "eth",
+                "name": "USDe",
+                "symbol": "USDe",
+                "display_symbol": null,
+                "optimized_symbol": "USDe",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+                "protocol_id": "ethena",
+                "price": 0.9985346330574925,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1699979555,
+                "amount": 14926283.16655
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "pool": {
+            "id": "0x8707f238936c12c309bfc2b9959c35828acfc512",
+            "chain": "eth",
+            "project_id": "ethena",
+            "adapter_id": "ethena_farming",
+            "controller": "0x8707f238936c12c309bfc2b9959c35828acfc512",
+            "index": null,
+            "time_at": 1704821171
+          }
+        }
+      ]
+    },
+    {
+      "id": "lido",
+      "chain": "eth",
+      "name": "LIDO",
+      "site_url": "https://stake.lido.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/lido/081388ebc44fa042561749bd5338d49e.png",
+      "has_supported_portfolio": true,
+      "tvl": 21515534932.920193,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.0000018064363608660598,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.0000018064363608660598
+          },
+          "asset_dict": {
+            "eth": 7.98781494e-10
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 7.98781494e-10
+            }
+          ],
+          "update_at": 1725656477,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 7.98781494e-10
+              }
+            ],
+            "description": "stETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "chain": "eth",
+            "project_id": "lido",
+            "adapter_id": "lido_staked",
+            "controller": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "index": null,
+            "time_at": 1608242396
+          }
+        }
+      ]
+    },
+    {
+      "id": "symbiotic",
+      "chain": "eth",
+      "name": "Symbiotic",
+      "site_url": "https://app.symbiotic.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/symbiotic/77a8a373f6082ff7da5df5c67ae450a2.png",
+      "has_supported_portfolio": true,
+      "tvl": 1444398419.2530813,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 404047.077843036,
+            "debt_usd_value": 0,
+            "net_usd_value": 404047.077843036
+          },
+          "asset_dict": {
+            "0x57e114b691db790c35207b2e685d4a43181e6061": 1953126.003125
+          },
+          "asset_token_list": [
+            {
+              "id": "0x57e114b691db790c35207b2e685d4a43181e6061",
+              "chain": "eth",
+              "name": "ENA",
+              "symbol": "ENA",
+              "display_symbol": null,
+              "optimized_symbol": "ENA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57e114b691db790c35207b2e685d4a43181e6061/f6063e563114a7df3903c930674a9230.png",
+              "protocol_id": "ethena",
+              "price": 0.20687199760617644,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1709674199,
+              "amount": 1953126.003125
+            }
+          ],
+          "update_at": 1725656477,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x57e114b691db790c35207b2e685d4a43181e6061",
+                "chain": "eth",
+                "name": "ENA",
+                "symbol": "ENA",
+                "display_symbol": null,
+                "optimized_symbol": "ENA",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57e114b691db790c35207b2e685d4a43181e6061/f6063e563114a7df3903c930674a9230.png",
+                "protocol_id": "ethena",
+                "price": 0.20687199760617644,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1709674199,
+                "amount": 1953126.003125
+              }
+            ],
+            "description": "DC_ENA"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xe39b5f5638a209c1a6b6cdffe5d37f7ac99fcc84",
+            "chain": "eth",
+            "project_id": "symbiotic",
+            "adapter_id": "symbiotic_staked",
+            "controller": "0xe39b5f5638a209c1a6b6cdffe5d37f7ac99fcc84",
+            "index": null,
+            "time_at": 1718804675
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2270 @@
+{
+  "user": {
+    "name": "Robert Leshner",
+    "address": "0xcfc50541c3dEaf725ce738EF87Ace2Ad778Ba0C5",
+    "twitterHandle": "rleshner",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "aave3",
+      "chain": "eth",
+      "name": "Aave V3",
+      "site_url": "https://app.aave.com",
+      "logo_url": "https://static.debank.com/image/project/logo_url/aave3/07bc2403c8c357d2317db15d64872314.png",
+      "has_supported_portfolio": true,
+      "tvl": 8049918105.045394,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 6534933.39417739,
+            "debt_usd_value": 4222235.100855325,
+            "net_usd_value": 2312698.293322065
+          },
+          "asset_dict": {
+            "0x4c9edd5852cd905f086c759e8383e09bff1e68b3": 6324428.1752805775,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": -4001261.535298
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+              "chain": "eth",
+              "name": "USDe",
+              "symbol": "USDe",
+              "display_symbol": null,
+              "optimized_symbol": "USDe",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+              "protocol_id": "ethena",
+              "price": 0.9985346330574925,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1699979555,
+              "amount": 6324428.1752805775
+            },
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 1.000300090027008,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": -4001261.535298
+            }
+          ],
+          "update_at": 1725655825,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+                "chain": "eth",
+                "name": "USDe",
+                "symbol": "USDe",
+                "display_symbol": null,
+                "optimized_symbol": "USDe",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+                "protocol_id": "ethena",
+                "price": 0.9985346330574925,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1699979555,
+                "amount": 6544523.522601874
+              }
+            ],
+            "borrow_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000300090027008,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 4001261.535298
+              },
+              {
+                "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+                "chain": "eth",
+                "name": "USDe",
+                "symbol": "USDe",
+                "display_symbol": null,
+                "optimized_symbol": "USDe",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+                "protocol_id": "ethena",
+                "price": 0.9985346330574925,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1699979555,
+                "amount": 220095.34732129573
+              }
+            ],
+            "health_rate": 1.1619020603944272
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "chain": "eth",
+            "project_id": "aave3",
+            "adapter_id": "aave3_proxy_lending",
+            "controller": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "index": null,
+            "time_at": 1672325495
+          }
+        }
+      ]
+    },
+    {
+      "id": "acrocc_v2",
+      "chain": "eth",
+      "name": "Across V2",
+      "site_url": "https://v2.across.to",
+      "logo_url": "https://static.debank.com/image/project/logo_url/acrocc_v2/985514626349705a6ed3eff71fd3499b.png",
+      "has_supported_portfolio": true,
+      "tvl": 148629565.23409852,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2733960.836336162,
+            "debt_usd_value": 0,
+            "net_usd_value": 2733960.836336162
+          },
+          "asset_dict": {
+            "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": 50.366735752189356,
+            "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f": 17959.502168445666
+          },
+          "asset_token_list": [
+            {
+              "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+              "chain": "eth",
+              "name": "Wrapped BTC",
+              "symbol": "WBTC",
+              "display_symbol": null,
+              "optimized_symbol": "WBTC",
+              "decimals": 8,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/d3c52e7c7449afa8bd4fad1c93f50d93.png",
+              "protocol_id": "",
+              "price": 54186,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1543095952,
+              "amount": 50.366735752189356
+            },
+            {
+              "id": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+              "chain": "eth",
+              "name": "Across Protocol Token",
+              "symbol": "ACX",
+              "display_symbol": null,
+              "optimized_symbol": "ACX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f/4b42e9d0ea87710f79837e16826d73e6.png",
+              "protocol_id": "acrocc_v2",
+              "price": 0.26664953310583445,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1666277447,
+              "amount": 17959.502168445666
+            }
+          ],
+          "update_at": 1725684585,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "chain": "eth",
+                "name": "Wrapped BTC",
+                "symbol": "WBTC",
+                "display_symbol": null,
+                "optimized_symbol": "WBTC",
+                "decimals": 8,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/d3c52e7c7449afa8bd4fad1c93f50d93.png",
+                "protocol_id": "",
+                "price": 54186,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1543095952,
+                "amount": 50.366735752189356
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+                "chain": "eth",
+                "name": "Across Protocol Token",
+                "symbol": "ACX",
+                "display_symbol": null,
+                "optimized_symbol": "ACX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f/4b42e9d0ea87710f79837e16826d73e6.png",
+                "protocol_id": "acrocc_v2",
+                "price": 0.26664953310583445,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1666277447,
+                "amount": 17959.502168445666
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x9040e41ef5e8b281535a96d9a48acb8cfabd9a48:0x59c1427c658e97a7d568541dac780b2e5c8affb4",
+            "chain": "eth",
+            "project_id": "acrocc_v2",
+            "adapter_id": "across_v2_farming",
+            "controller": "0x9040e41ef5e8b281535a96d9a48acb8cfabd9a48",
+            "index": "0x59c1427c658e97a7d568541dac780b2e5c8affb4",
+            "time_at": 1668535799
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 2921798.099225458,
+            "debt_usd_value": 0,
+            "net_usd_value": 2921798.099225458
+          },
+          "asset_dict": {
+            "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f": 10957446.897406653
+          },
+          "asset_token_list": [
+            {
+              "id": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+              "chain": "eth",
+              "name": "Across Protocol Token",
+              "symbol": "ACX",
+              "display_symbol": null,
+              "optimized_symbol": "ACX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f/4b42e9d0ea87710f79837e16826d73e6.png",
+              "protocol_id": "acrocc_v2",
+              "price": 0.26664953310583445,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1666277447,
+              "amount": 10957446.897406653
+            }
+          ],
+          "update_at": 1725684585,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+                "chain": "eth",
+                "name": "Across Protocol Token",
+                "symbol": "ACX",
+                "display_symbol": null,
+                "optimized_symbol": "ACX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f/4b42e9d0ea87710f79837e16826d73e6.png",
+                "protocol_id": "acrocc_v2",
+                "price": 0.26664953310583445,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1666277447,
+                "amount": 10013845.726230534
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+                "chain": "eth",
+                "name": "Across Protocol Token",
+                "symbol": "ACX",
+                "display_symbol": null,
+                "optimized_symbol": "ACX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f/4b42e9d0ea87710f79837e16826d73e6.png",
+                "protocol_id": "acrocc_v2",
+                "price": 0.26664953310583445,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1666277447,
+                "amount": 943601.171176119
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x9040e41ef5e8b281535a96d9a48acb8cfabd9a48:0xb0c8fef534223b891d4a430e49537143829c4817",
+            "chain": "eth",
+            "project_id": "acrocc_v2",
+            "adapter_id": "across_v2_farming",
+            "controller": "0x9040e41ef5e8b281535a96d9a48acb8cfabd9a48",
+            "index": "0xb0c8fef534223b891d4a430e49537143829c4817",
+            "time_at": 1668535799
+          }
+        }
+      ]
+    },
+    {
+      "id": "base_merkl",
+      "chain": "base",
+      "name": "Merkl",
+      "site_url": "https://app.merkl.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/merkl/7c4a97689b3310cc3436bc6e1a215476.png",
+      "has_supported_portfolio": true,
+      "tvl": 41762.85069174557,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0,
+            "debt_usd_value": 0,
+            "net_usd_value": 0
+          },
+          "asset_dict": {
+            "0xc011882d0f7672d8942e7fe2248c174eed640c8f": 0.5713301511826883
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc011882d0f7672d8942e7fe2248c174eed640c8f",
+              "chain": "base",
+              "name": "Angle Merkl",
+              "symbol": "aglaMerkl",
+              "display_symbol": null,
+              "optimized_symbol": "aglaMerkl",
+              "decimals": 18,
+              "logo_url": null,
+              "protocol_id": "base_angle",
+              "price": 0,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1694513593,
+              "amount": 0.5713301511826883
+            }
+          ],
+          "update_at": 1725566585,
+          "name": "Rewards",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc011882d0f7672d8942e7fe2248c174eed640c8f",
+                "chain": "base",
+                "name": "Angle Merkl",
+                "symbol": "aglaMerkl",
+                "display_symbol": null,
+                "optimized_symbol": "aglaMerkl",
+                "decimals": 18,
+                "logo_url": null,
+                "protocol_id": "base_angle",
+                "price": 0,
+                "is_verified": false,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1694513593,
+                "amount": 0.5713301511826883
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae",
+            "chain": "base",
+            "project_id": "base_merkl",
+            "adapter_id": "merkl_reward",
+            "controller": "0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae",
+            "index": null,
+            "time_at": 1691171679
+          }
+        }
+      ]
+    },
+    {
+      "id": "compound",
+      "chain": "eth",
+      "name": "Compound",
+      "site_url": "https://app.compound.finance",
+      "logo_url": "https://static.debank.com/image/project/logo_url/compound/0b792243f1f68e9ed082f5a49ee6f21d.png",
+      "has_supported_portfolio": true,
+      "tvl": 487583531.4811054,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 22.925159717682554,
+            "debt_usd_value": 0,
+            "net_usd_value": 22.925159717682554
+          },
+          "asset_dict": {
+            "0xc00e94cb662c3520282e6f5717214004a7f26888": 0.5517266096510246
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+              "chain": "eth",
+              "name": "Compound",
+              "symbol": "COMP",
+              "display_symbol": null,
+              "optimized_symbol": "COMP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+              "protocol_id": "compound3",
+              "price": 41.55166583714906,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1583280535,
+              "amount": 0.5517266096510246
+            }
+          ],
+          "update_at": 1725684585,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [],
+            "reward_token_list": [
+              {
+                "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                "chain": "eth",
+                "name": "Compound",
+                "symbol": "COMP",
+                "display_symbol": null,
+                "optimized_symbol": "COMP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+                "protocol_id": "compound3",
+                "price": 41.55166583714906,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1583280535,
+                "amount": 0.5517266096510246
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b",
+            "chain": "eth",
+            "project_id": "compound",
+            "adapter_id": "compound_lending_proxy",
+            "controller": "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b",
+            "index": null,
+            "time_at": 1557191237
+          }
+        }
+      ]
+    },
+    {
+      "id": "compound3",
+      "chain": "eth",
+      "name": "Compound V3",
+      "site_url": "https://v3-app.compound.finance",
+      "logo_url": "https://static.debank.com/image/project/logo_url/compound3/28e2b958e38eb0c49d600633b9ce0969.png",
+      "has_supported_portfolio": true,
+      "tvl": 1076862517.3604264,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 33.85530008412896,
+            "debt_usd_value": 0,
+            "net_usd_value": 33.85530008412896
+          },
+          "asset_dict": {
+            "0xc00e94cb662c3520282e6f5717214004a7f26888": 0.814776
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+              "chain": "eth",
+              "name": "Compound",
+              "symbol": "COMP",
+              "display_symbol": null,
+              "optimized_symbol": "COMP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+              "protocol_id": "compound3",
+              "price": 41.55166583714906,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1583280535,
+              "amount": 0.814776
+            }
+          ],
+          "update_at": 1725636289,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [],
+            "reward_token_list": [
+              {
+                "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                "chain": "eth",
+                "name": "Compound",
+                "symbol": "COMP",
+                "display_symbol": null,
+                "optimized_symbol": "COMP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+                "protocol_id": "compound3",
+                "price": 41.55166583714906,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1583280535,
+                "amount": 0.814776
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xa17581a9e3356d9a858b789d68b4d866e593ae94:lending",
+            "chain": "eth",
+            "project_id": "compound3",
+            "adapter_id": "compound_lending2",
+            "controller": "0xa17581a9e3356d9a858b789d68b4d866e593ae94",
+            "index": "lending",
+            "time_at": 1673647103
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 6164761.953899329,
+            "debt_usd_value": 3080240.1140382113,
+            "net_usd_value": 3084521.8398611173
+          },
+          "asset_dict": {
+            "0xc00e94cb662c3520282e6f5717214004a7f26888": 132414.77668782667,
+            "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": 105480.59192060225,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": -3079316.042004
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+              "chain": "eth",
+              "name": "Compound",
+              "symbol": "COMP",
+              "display_symbol": null,
+              "optimized_symbol": "COMP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+              "protocol_id": "compound3",
+              "price": 41.55166583714906,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1583280535,
+              "amount": 132414.77668782667
+            },
+            {
+              "id": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+              "chain": "eth",
+              "name": "Uniswap",
+              "symbol": "UNI",
+              "display_symbol": null,
+              "optimized_symbol": "UNI",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984/fcee0c46fc9864f48ce6a40ed1cdd135.png",
+              "protocol_id": "uniswap3",
+              "price": 6.282742531108234,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1600107086,
+              "amount": 105480.59192060225
+            },
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 1.000300090027008,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": -3079316.042004
+            }
+          ],
+          "update_at": 1725636289,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                "chain": "eth",
+                "name": "Compound",
+                "symbol": "COMP",
+                "display_symbol": null,
+                "optimized_symbol": "COMP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+                "protocol_id": "compound3",
+                "price": 41.55166583714906,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1583280535,
+                "amount": 132387.90360682667
+              },
+              {
+                "id": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                "chain": "eth",
+                "name": "Uniswap",
+                "symbol": "UNI",
+                "display_symbol": null,
+                "optimized_symbol": "UNI",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984/fcee0c46fc9864f48ce6a40ed1cdd135.png",
+                "protocol_id": "uniswap3",
+                "price": 6.282742531108234,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1600107086,
+                "amount": 105480.59192060225
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                "chain": "eth",
+                "name": "Compound",
+                "symbol": "COMP",
+                "display_symbol": null,
+                "optimized_symbol": "COMP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+                "protocol_id": "compound3",
+                "price": 41.55166583714906,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1583280535,
+                "amount": 26.873081
+              }
+            ],
+            "borrow_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000300090027008,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 3079316.042004
+              }
+            ],
+            "health_rate": 1.420082602973984
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc3d688b66703497daa19211eedff47f25384cdc3:lending",
+            "chain": "eth",
+            "project_id": "compound3",
+            "adapter_id": "compound_lending2",
+            "controller": "0xc3d688b66703497daa19211eedff47f25384cdc3",
+            "index": "lending",
+            "time_at": 1660368917
+          }
+        }
+      ]
+    },
+    {
+      "id": "eigenlayer",
+      "chain": "eth",
+      "name": "EigenLayer",
+      "site_url": "https://app.eigenlayer.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+      "has_supported_portfolio": true,
+      "tvl": 3346675102.40816,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 5762159.747243006,
+            "debt_usd_value": 0,
+            "net_usd_value": 5762159.747243006
+          },
+          "asset_dict": {
+            "eth": 2547.9483646812528
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 2547.9483646812528
+            }
+          ],
+          "update_at": 1725684584,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 2547.9483646812528
+              }
+            ],
+            "description": "mETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x298afb19a105d59e74658c4c334ff360bade6dd2",
+            "chain": "eth",
+            "project_id": "eigenlayer",
+            "adapter_id": "eigenlayer_yield",
+            "controller": "0x298afb19a105d59e74658c4c334ff360bade6dd2",
+            "index": null,
+            "time_at": 1704485723
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 0,
+            "debt_usd_value": 0,
+            "net_usd_value": 0
+          },
+          "asset_dict": {
+            "0xec53bf9167f50cdeb3ae105f56099aaab9061f83": 35056.7943455566
+          },
+          "asset_token_list": [
+            {
+              "id": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+              "chain": "eth",
+              "name": "Eigen",
+              "symbol": "EIGEN",
+              "display_symbol": null,
+              "optimized_symbol": "EIGEN",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+              "protocol_id": "eigenlayer",
+              "price": 0,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1697499563,
+              "amount": 35056.7943455566
+            }
+          ],
+          "update_at": 1725684584,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+                "chain": "eth",
+                "name": "Eigen",
+                "symbol": "EIGEN",
+                "display_symbol": null,
+                "optimized_symbol": "EIGEN",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+                "protocol_id": "eigenlayer",
+                "price": 0,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1697499563,
+                "amount": 35056.7943455566
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xacb55c530acdb2849e6d4f36992cd8c9d50ed8f7",
+            "chain": "eth",
+            "project_id": "eigenlayer",
+            "adapter_id": "eigenlayer_yield",
+            "controller": "0xacb55c530acdb2849e6d4f36992cd8c9d50ed8f7",
+            "index": null,
+            "time_at": 1713414611
+          }
+        }
+      ]
+    },
+    {
+      "id": "ethena",
+      "chain": "eth",
+      "name": "Ethena",
+      "site_url": "https://www.ethena.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/ethena/bb8bd15480078225e9eca0f9b52415d4.png",
+      "has_supported_portfolio": true,
+      "tvl": 1841022351.7693186,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 55221.256330066215,
+            "debt_usd_value": 0,
+            "net_usd_value": 55221.256330066215
+          },
+          "asset_dict": {
+            "0x57e114b691db790c35207b2e685d4a43181e6061": 266934.4182347544
+          },
+          "asset_token_list": [
+            {
+              "id": "0x57e114b691db790c35207b2e685d4a43181e6061",
+              "chain": "eth",
+              "name": "ENA",
+              "symbol": "ENA",
+              "display_symbol": null,
+              "optimized_symbol": "ENA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57e114b691db790c35207b2e685d4a43181e6061/f6063e563114a7df3903c930674a9230.png",
+              "protocol_id": "ethena",
+              "price": 0.20687199760617644,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1709674199,
+              "amount": 266934.4182347544
+            }
+          ],
+          "update_at": 1725684585,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x57e114b691db790c35207b2e685d4a43181e6061",
+                "chain": "eth",
+                "name": "ENA",
+                "symbol": "ENA",
+                "display_symbol": null,
+                "optimized_symbol": "ENA",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57e114b691db790c35207b2e685d4a43181e6061/f6063e563114a7df3903c930674a9230.png",
+                "protocol_id": "ethena",
+                "price": 0.20687199760617644,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1709674199,
+                "amount": 266934.4182347544
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0x57e114b691db790c35207b2e685d4a43181e6061",
+          "pool": {
+            "id": "0x8707f238936c12c309bfc2b9959c35828acfc512",
+            "chain": "eth",
+            "project_id": "ethena",
+            "adapter_id": "ethena_farming",
+            "controller": "0x8707f238936c12c309bfc2b9959c35828acfc512",
+            "index": null,
+            "time_at": 1704821171
+          }
+        }
+      ]
+    },
+    {
+      "id": "fei",
+      "chain": "eth",
+      "name": "Fei Protocol",
+      "site_url": "https://app.fei.money",
+      "logo_url": "https://static.debank.com/image/project/logo_url/fei/422fd342a44237b70ae4107b93c2dd01.png",
+      "has_supported_portfolio": true,
+      "tvl": 2127818.2541956957,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1.272569133971969,
+            "debt_usd_value": 0,
+            "net_usd_value": 1.272569133971969
+          },
+          "asset_dict": {
+            "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b": 3.2057265041756926
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+              "chain": "eth",
+              "name": "Tribe",
+              "symbol": "TRIBE",
+              "display_symbol": "TRIBE(fei.money)",
+              "optimized_symbol": "TRIBE(fei.money)",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b/581e3adf3afc2fddcb086a04f575ed23.png",
+              "protocol_id": "fei",
+              "price": 0.39696746815873246,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1616909037,
+              "amount": 3.2057265041756926
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+                "chain": "eth",
+                "name": "Tribe",
+                "symbol": "TRIBE",
+                "display_symbol": "TRIBE(fei.money)",
+                "optimized_symbol": "TRIBE(fei.money)",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b/581e3adf3afc2fddcb086a04f575ed23.png",
+                "protocol_id": "fei",
+                "price": 0.39696746815873246,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1616909037,
+                "amount": 3.161042591734663
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+                "chain": "eth",
+                "name": "Tribe",
+                "symbol": "TRIBE",
+                "display_symbol": "TRIBE(fei.money)",
+                "optimized_symbol": "TRIBE(fei.money)",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b/581e3adf3afc2fddcb086a04f575ed23.png",
+                "protocol_id": "fei",
+                "price": 0.39696746815873246,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1616909037,
+                "amount": 0.04468391244102961
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x73f16f0c0cd1a078a54894974c5c054d8dc1a3d7",
+            "chain": "eth",
+            "project_id": "fei",
+            "adapter_id": "fei_lending",
+            "controller": "0x73f16f0c0cd1a078a54894974c5c054d8dc1a3d7",
+            "index": null,
+            "time_at": 1633114748
+          }
+        }
+      ]
+    },
+    {
+      "id": "lido",
+      "chain": "eth",
+      "name": "LIDO",
+      "site_url": "https://stake.lido.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/lido/081388ebc44fa042561749bd5338d49e.png",
+      "has_supported_portfolio": true,
+      "tvl": 21515534932.920193,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2.26149e-15,
+            "debt_usd_value": 0,
+            "net_usd_value": 2.26149e-15
+          },
+          "asset_dict": {
+            "eth": 1e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 1e-18
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 1e-18
+              }
+            ],
+            "description": "stETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "chain": "eth",
+            "project_id": "lido",
+            "adapter_id": "lido_staked",
+            "controller": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "index": null,
+            "time_at": 1608242396
+          }
+        }
+      ]
+    },
+    {
+      "id": "mellow",
+      "chain": "eth",
+      "name": "mellow",
+      "site_url": "https://app.mellow.finance/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/mellow/9ce3dea3e0134a43f9649b5cb4f03a57.png",
+      "has_supported_portfolio": true,
+      "tvl": 527653429.9205185,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 10317.585243152162,
+            "debt_usd_value": 0,
+            "net_usd_value": 10317.585243152162
+          },
+          "asset_dict": {
+            "0x57e114b691db790c35207b2e685d4a43181e6061": 49874.24766301051
+          },
+          "asset_token_list": [
+            {
+              "id": "0x57e114b691db790c35207b2e685d4a43181e6061",
+              "chain": "eth",
+              "name": "ENA",
+              "symbol": "ENA",
+              "display_symbol": null,
+              "optimized_symbol": "ENA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57e114b691db790c35207b2e685d4a43181e6061/f6063e563114a7df3903c930674a9230.png",
+              "protocol_id": "ethena",
+              "price": 0.20687199760617644,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1709674199,
+              "amount": 49874.24766301051
+            }
+          ],
+          "update_at": 1725684585,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x57e114b691db790c35207b2e685d4a43181e6061",
+                "chain": "eth",
+                "name": "ENA",
+                "symbol": "ENA",
+                "display_symbol": null,
+                "optimized_symbol": "ENA",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57e114b691db790c35207b2e685d4a43181e6061/f6063e563114a7df3903c930674a9230.png",
+                "protocol_id": "ethena",
+                "price": 0.20687199760617644,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1709674199,
+                "amount": 49874.24766301051
+              }
+            ],
+            "description": "Ethena LRT Vault ENA"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc65433845ecd16688eda196497fa9130d6c47bd8",
+            "chain": "eth",
+            "project_id": "mellow",
+            "adapter_id": "mellow_staked",
+            "controller": "0xc65433845ecd16688eda196497fa9130d6c47bd8",
+            "index": null,
+            "time_at": 1719251195
+          }
+        }
+      ]
+    },
+    {
+      "id": "morpho",
+      "chain": "eth",
+      "name": "Morpho Compound",
+      "site_url": "https://compound.morpho.org",
+      "logo_url": "https://static.debank.com/image/project/logo_url/morpho/9e857a618de0fc2bd49848fc0b0dace0.png",
+      "has_supported_portfolio": true,
+      "tvl": 230661.4143024478,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1.1143018005714889,
+            "debt_usd_value": 0.8609827978117629,
+            "net_usd_value": 0.25331900275972596
+          },
+          "asset_dict": {
+            "0xc00e94cb662c3520282e6f5717214004a7f26888": 0.01323628660848467,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": -0.2965817540941637
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+              "chain": "eth",
+              "name": "Compound",
+              "symbol": "COMP",
+              "display_symbol": null,
+              "optimized_symbol": "COMP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+              "protocol_id": "compound3",
+              "price": 41.55166583714906,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1583280535,
+              "amount": 0.01323628660848467
+            },
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 1.000300090027008,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": -0.2965817540941637
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                "chain": "eth",
+                "name": "Compound",
+                "symbol": "COMP",
+                "display_symbol": null,
+                "optimized_symbol": "COMP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+                "protocol_id": "compound3",
+                "price": 41.55166583714906,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1583280535,
+                "amount": 0.02656635196932095
+              },
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000300090027008,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 0.010422493343869126
+              }
+            ],
+            "borrow_token_list": [
+              {
+                "id": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                "chain": "eth",
+                "name": "Compound",
+                "symbol": "COMP",
+                "display_symbol": null,
+                "optimized_symbol": "COMP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc00e94cb662c3520282e6f5717214004a7f26888/dd174d3d7083fa027a433dc50edaf0bc.png",
+                "protocol_id": "compound3",
+                "price": 41.55166583714906,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1583280535,
+                "amount": 0.013330065360836278
+              },
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000300090027008,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 0.30700424743803284
+              }
+            ],
+            "health_rate": 1.2942207479679626
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x8888882f8f843896699869179fb6e4f7e3b58888",
+            "chain": "eth",
+            "project_id": "morpho",
+            "adapter_id": "morpho_lending",
+            "controller": "0x8888882f8f843896699869179fb6e4f7e3b58888",
+            "index": null,
+            "time_at": 1653749089
+          }
+        }
+      ]
+    },
+    {
+      "id": "morphoblue",
+      "chain": "eth",
+      "name": "Morpho Blue",
+      "site_url": "https://app.morpho.org",
+      "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x9994e35db50125e0df82e4c2dde62496ce330999/9e857a618de0fc2bd49848fc0b0dace0.png",
+      "has_supported_portfolio": true,
+      "tvl": 836016290.1741427,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.09216845816044543,
+            "debt_usd_value": 0.06870551437619025,
+            "net_usd_value": 0.023462943784255175
+          },
+          "asset_dict": {
+            "0x4c9edd5852cd905f086c759e8383e09bff1e68b3": 0.09230371697597259,
+            "0x6b175474e89094c44da98b954eedeac495271d0f": -0.06871925822783582
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+              "chain": "eth",
+              "name": "USDe",
+              "symbol": "USDe",
+              "display_symbol": null,
+              "optimized_symbol": "USDe",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+              "protocol_id": "ethena",
+              "price": 0.9985346330574925,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1699979555,
+              "amount": 0.09230371697597259
+            },
+            {
+              "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+              "chain": "eth",
+              "name": "Dai Stablecoin",
+              "symbol": "DAI",
+              "display_symbol": "",
+              "optimized_symbol": "DAI",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png",
+              "protocol_id": "makerdao",
+              "price": 0.9998,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1573672677,
+              "amount": -0.06871925822783582
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+                "chain": "eth",
+                "name": "USDe",
+                "symbol": "USDe",
+                "display_symbol": null,
+                "optimized_symbol": "USDe",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+                "protocol_id": "ethena",
+                "price": 0.9985346330574925,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1699979555,
+                "amount": 0.09230371697597259
+              }
+            ],
+            "borrow_token_list": [
+              {
+                "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "chain": "eth",
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "display_symbol": "",
+                "optimized_symbol": "DAI",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png",
+                "protocol_id": "makerdao",
+                "price": 0.9998,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1573672677,
+                "amount": 0.06871925822783582
+              }
+            ],
+            "health_rate": 1.2274726414978037
+          },
+          "proxy_detail": {},
+          "position_index": "0x1247f1c237eceae0602eab1470a5061a6dd8f734ba88c7cdc5d6109fb0026b28",
+          "pool": {
+            "id": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb:lending",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "morpho_blue_lending",
+            "controller": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+            "index": "lending",
+            "time_at": 1703754563
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 0.0933386116579034,
+            "debt_usd_value": 0.023928933579483575,
+            "net_usd_value": 0.06940967807841983
+          },
+          "asset_dict": {
+            "0x4c9edd5852cd905f086c759e8383e09bff1e68b3": 0.09347558769404171,
+            "0x6b175474e89094c44da98b954eedeac495271d0f": -0.023933720323548284
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+              "chain": "eth",
+              "name": "USDe",
+              "symbol": "USDe",
+              "display_symbol": null,
+              "optimized_symbol": "USDe",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+              "protocol_id": "ethena",
+              "price": 0.9985346330574925,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1699979555,
+              "amount": 0.09347558769404171
+            },
+            {
+              "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+              "chain": "eth",
+              "name": "Dai Stablecoin",
+              "symbol": "DAI",
+              "display_symbol": "",
+              "optimized_symbol": "DAI",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png",
+              "protocol_id": "makerdao",
+              "price": 0.9998,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1573672677,
+              "amount": -0.023933720323548284
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+                "chain": "eth",
+                "name": "USDe",
+                "symbol": "USDe",
+                "display_symbol": null,
+                "optimized_symbol": "USDe",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png",
+                "protocol_id": "ethena",
+                "price": 0.9985346330574925,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1699979555,
+                "amount": 0.09347558769404171
+              }
+            ],
+            "borrow_token_list": [
+              {
+                "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "chain": "eth",
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "display_symbol": "",
+                "optimized_symbol": "DAI",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png",
+                "protocol_id": "makerdao",
+                "price": 0.9998,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1573672677,
+                "amount": 0.023933720323548284
+              }
+            ],
+            "health_rate": 3.3545667950125715
+          },
+          "proxy_detail": {},
+          "position_index": "0x39d11026eae1c6ec02aa4c0910778664089cdd97c3fd23f68f7cd05e2e95af48",
+          "pool": {
+            "id": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb:lending",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "morpho_blue_lending",
+            "controller": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+            "index": "lending",
+            "time_at": 1703754563
+          }
+        }
+      ]
+    },
+    {
+      "id": "perennial",
+      "chain": "eth",
+      "name": "Perennial",
+      "site_url": "https://app.perennial.finance/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/perennial/02c583a3b9b9a664058bc235a0fcd55b.png",
+      "has_supported_portfolio": true,
+      "tvl": 28736.50387654777,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.0020507054875914463,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.0020507054875914463
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 0.002050090275945169
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 1.000300090027008,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 0.002050090275945169
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000300090027008,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 0.002050090275945169
+              }
+            ],
+            "description": "DSU"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x605d26fbd5be761089281d5cec2ce86eea667109",
+            "chain": "eth",
+            "project_id": "perennial",
+            "adapter_id": "dsu_yield",
+            "controller": "0x605d26fbd5be761089281d5cec2ce86eea667109",
+            "index": null,
+            "time_at": 1627406493
+          }
+        }
+      ]
+    },
+    {
+      "id": "pickle",
+      "chain": "eth",
+      "name": "Pickle",
+      "site_url": "https://app.pickle.finance",
+      "logo_url": "https://static.debank.com/image/project/logo_url/pickle/ed7bbad0debfd082c9d23adfd80fbfbb.png",
+      "has_supported_portfolio": true,
+      "tvl": 3961091.8707962884,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 8.69865582455071e-8,
+            "debt_usd_value": 0,
+            "net_usd_value": 8.69865582455071e-8
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 2.0174002913919982e-8,
+            "eth": 9.022095234936987e-12,
+            "0x429881672b9ae42b8eba0e26cd9c73711b891ca5": 7.26116801e-8
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 1.000300090027008,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 2.0174002913919982e-8
+            },
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 9.022095234936987e-12
+            },
+            {
+              "id": "0x429881672b9ae42b8eba0e26cd9c73711b891ca5",
+              "chain": "eth",
+              "name": "PickleToken",
+              "symbol": "PICKLE",
+              "display_symbol": null,
+              "optimized_symbol": "PICKLE",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x429881672b9ae42b8eba0e26cd9c73711b891ca5/2b7b9d9e339bbaac086bdaf663b0072a.png",
+              "protocol_id": "pickle",
+              "price": 0.6390586624320538,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1599694316,
+              "amount": 7.26116801e-8
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000300090027008,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 2.0174002913919982e-8
+              },
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 9.022095234936987e-12
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x429881672b9ae42b8eba0e26cd9c73711b891ca5",
+                "chain": "eth",
+                "name": "PickleToken",
+                "symbol": "PICKLE",
+                "display_symbol": null,
+                "optimized_symbol": "PICKLE",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x429881672b9ae42b8eba0e26cd9c73711b891ca5/2b7b9d9e339bbaac086bdaf663b0072a.png",
+                "protocol_id": "pickle",
+                "price": 0.6390586624320538,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1599694316,
+                "amount": 7.26116801e-8
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xbd17b1ce622d73bd438b9e658aca5996dc394b0d:6",
+            "chain": "eth",
+            "project_id": "pickle",
+            "adapter_id": "pickle_chef_farming",
+            "controller": "0xbd17b1ce622d73bd438b9e658aca5996dc394b0d",
+            "index": "6",
+            "time_at": 1599694464
+          }
+        }
+      ]
+    },
+    {
+      "id": "pls_hedronswap",
+      "chain": "pls",
+      "name": "Hedron Swap",
+      "site_url": "https://swap.hedron.pro/#/swap",
+      "logo_url": "https://static.debank.com/image/project/logo_url/pls_hedronswap/b6ada9ff0ccd6604fa9fbcd567f49dd4.png",
+      "has_supported_portfolio": true,
+      "tvl": 386896.09550835716,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 633.8421345788885,
+            "debt_usd_value": 0,
+            "net_usd_value": 633.8421345788885
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 373178.95419532806,
+            "0xff20817765cb7f73d4bde2e66e067e58d11095c2": 180372943.78468615
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "pls",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": "USDC(fork)",
+              "optimized_symbol": "USDC(fork)",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/pls_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/a74c5617abebc57c475d3031a8ca325c.png",
+              "protocol_id": "",
+              "price": 0.0016984937854966093,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 373178.95419532806
+            },
+            {
+              "id": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+              "chain": "pls",
+              "name": "Amp",
+              "symbol": "AMP",
+              "display_symbol": null,
+              "optimized_symbol": "AMP",
+              "decimals": 18,
+              "logo_url": null,
+              "protocol_id": "",
+              "price": 0,
+              "is_verified": false,
+              "is_core": false,
+              "is_wallet": false,
+              "time_at": 1597105639,
+              "amount": 180372943.78468615
+            }
+          ],
+          "update_at": 1725661583,
+          "name": "Liquidity Pool",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "pls",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": "USDC(fork)",
+                "optimized_symbol": "USDC(fork)",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/pls_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/a74c5617abebc57c475d3031a8ca325c.png",
+                "protocol_id": "",
+                "price": 0.0016984937854966093,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 321994.941303328
+              },
+              {
+                "id": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+                "chain": "pls",
+                "name": "Amp",
+                "symbol": "AMP",
+                "display_symbol": null,
+                "optimized_symbol": "AMP",
+                "decimals": 18,
+                "logo_url": null,
+                "protocol_id": "",
+                "price": 0,
+                "is_verified": false,
+                "is_core": false,
+                "is_wallet": false,
+                "time_at": 1597105639,
+                "amount": 175982631.5059642
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "pls",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": "USDC(fork)",
+                "optimized_symbol": "USDC(fork)",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/pls_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/a74c5617abebc57c475d3031a8ca325c.png",
+                "protocol_id": "",
+                "price": 0.0016984937854966093,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 51184.012892
+              },
+              {
+                "id": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+                "chain": "pls",
+                "name": "Amp",
+                "symbol": "AMP",
+                "display_symbol": null,
+                "optimized_symbol": "AMP",
+                "decimals": 18,
+                "logo_url": null,
+                "protocol_id": "",
+                "price": 0,
+                "is_verified": false,
+                "is_core": false,
+                "is_wallet": false,
+                "time_at": 1597105639,
+                "amount": 4390312.27872195
+              }
+            ],
+            "description": "#450143"
+          },
+          "proxy_detail": {},
+          "position_index": "450143",
+          "pool": {
+            "id": "0x75c80ce8fddfc61641bed16cd90c9123f0d9a020",
+            "chain": "pls",
+            "project_id": "pls_hedronswap",
+            "adapter_id": "uniswap3_liquidity",
+            "controller": "0x75c80ce8fddfc61641bed16cd90c9123f0d9a020",
+            "index": null,
+            "time_at": 1622589052
+          }
+        }
+      ]
+    },
+    {
+      "id": "rari",
+      "chain": "eth",
+      "name": "Rari Capital",
+      "site_url": "https://rari.capital",
+      "logo_url": "https://static.debank.com/image/project/logo_url/rari/6b14002b51a95d583d1a6c600a438aae.png",
+      "has_supported_portfolio": true,
+      "tvl": 111538722.62388888,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1.2551183828173496,
+            "debt_usd_value": 0,
+            "net_usd_value": 1.2551183828173496
+          },
+          "asset_dict": {
+            "eth": 1.270438668853476e-7,
+            "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b": 3.161042591734663
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 1.270438668853476e-7
+            },
+            {
+              "id": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+              "chain": "eth",
+              "name": "Tribe",
+              "symbol": "TRIBE",
+              "display_symbol": "TRIBE(fei.money)",
+              "optimized_symbol": "TRIBE(fei.money)",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b/581e3adf3afc2fddcb086a04f575ed23.png",
+              "protocol_id": "fei",
+              "price": 0.39696746815873246,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1616909037,
+              "amount": 3.161042591734663
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 1.270438668853476e-7
+              },
+              {
+                "id": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+                "chain": "eth",
+                "name": "Tribe",
+                "symbol": "TRIBE",
+                "display_symbol": "TRIBE(fei.money)",
+                "optimized_symbol": "TRIBE(fei.money)",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b/581e3adf3afc2fddcb086a04f575ed23.png",
+                "protocol_id": "fei",
+                "price": 0.39696746815873246,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1616909037,
+                "amount": 3.161042591734663
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc54172e34046c1653d1920d40333dd358c7a1af4",
+            "chain": "eth",
+            "project_id": "rari",
+            "adapter_id": "rari_lending",
+            "controller": "0xc54172e34046c1653d1920d40333dd358c7a1af4",
+            "index": null,
+            "time_at": 1617686421
+          }
+        }
+      ]
+    },
+    {
+      "id": "uma",
+      "chain": "eth",
+      "name": "UMA",
+      "site_url": "https://umaproject.org",
+      "logo_url": "https://static.debank.com/image/project/logo_url/uma/52f6b23b02c56b1315c8fbffd7130599.png",
+      "has_supported_portfolio": true,
+      "tvl": 61127021.99196914,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 896601.5792692202,
+            "debt_usd_value": 0,
+            "net_usd_value": 896601.5792692202
+          },
+          "asset_dict": {
+            "0x04fa0d235c4abf4bcf4787af4cf447de572ef828": 425374.14335260855
+          },
+          "asset_token_list": [
+            {
+              "id": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+              "chain": "eth",
+              "name": "UMA Voting Token v1",
+              "symbol": "UMA",
+              "display_symbol": null,
+              "optimized_symbol": "UMA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x04fa0d235c4abf4bcf4787af4cf447de572ef828/cabffedd327aaea32dd7bcf155f9cbd6.png",
+              "protocol_id": "uma",
+              "price": 2.1077952040117154,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1578581061,
+              "amount": 425374.14335260855
+            }
+          ],
+          "update_at": 1725639420,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+                "chain": "eth",
+                "name": "UMA Voting Token v1",
+                "symbol": "UMA",
+                "display_symbol": null,
+                "optimized_symbol": "UMA",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x04fa0d235c4abf4bcf4787af4cf447de572ef828/cabffedd327aaea32dd7bcf155f9cbd6.png",
+                "protocol_id": "uma",
+                "price": 2.1077952040117154,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1578581061,
+                "amount": 425137.07162550744
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+                "chain": "eth",
+                "name": "UMA Voting Token v1",
+                "symbol": "UMA",
+                "display_symbol": null,
+                "optimized_symbol": "UMA",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x04fa0d235c4abf4bcf4787af4cf447de572ef828/cabffedd327aaea32dd7bcf155f9cbd6.png",
+                "protocol_id": "uma",
+                "price": 2.1077952040117154,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1578581061,
+                "amount": 237.07172710109532
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x004395edb43efca9885cedad51ec9faf93bd34ac",
+            "chain": "eth",
+            "project_id": "uma",
+            "adapter_id": "uma_staked",
+            "controller": "0x004395edb43efca9885cedad51ec9faf93bd34ac",
+            "index": null,
+            "time_at": 1677229919
+          }
+        }
+      ]
+    },
+    {
+      "id": "unknown_protocol",
+      "chain": "eth",
+      "name": "Unknown Protocol",
+      "site_url": "https://debank.com/proposal",
+      "logo_url": "https://static.debank.com/image/project/logo_url/unknown_protocol/bb27d4a617119418375b78e349640994.png",
+      "has_supported_portfolio": true,
+      "tvl": 1646528.398986486,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 8.705571610195584e-13,
+            "debt_usd_value": 0,
+            "net_usd_value": 8.705571610195584e-13
+          },
+          "asset_dict": {
+            "eth": 3.849484901633695e-16,
+            "0xe0965c761366160ec3d3cc4ee2ea19de68868d4f": 0.00000413569068676183
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 3.849484901633695e-16
+            },
+            {
+              "id": "0xe0965c761366160ec3d3cc4ee2ea19de68868d4f",
+              "chain": "eth",
+              "name": "SpringRollToken",
+              "symbol": "SPRINGROLL",
+              "display_symbol": null,
+              "optimized_symbol": "SPRINGROLL",
+              "decimals": 18,
+              "logo_url": null,
+              "protocol_id": "",
+              "price": 0,
+              "is_verified": false,
+              "is_core": false,
+              "is_wallet": false,
+              "time_at": 1599062504,
+              "amount": 0.00000413569068676183
+            }
+          ],
+          "update_at": 1725664921,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 3.849484901633695e-16
+              },
+              {
+                "id": "0xe0965c761366160ec3d3cc4ee2ea19de68868d4f",
+                "chain": "eth",
+                "name": "SpringRollToken",
+                "symbol": "SPRINGROLL",
+                "display_symbol": null,
+                "optimized_symbol": "SPRINGROLL",
+                "decimals": 18,
+                "logo_url": null,
+                "protocol_id": "",
+                "price": 0,
+                "is_verified": false,
+                "is_core": false,
+                "is_wallet": false,
+                "time_at": 1599062504,
+                "amount": 3.181461980830348e-9
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0xe0965c761366160ec3d3cc4ee2ea19de68868d4f",
+                "chain": "eth",
+                "name": "SpringRollToken",
+                "symbol": "SPRINGROLL",
+                "display_symbol": null,
+                "optimized_symbol": "SPRINGROLL",
+                "decimals": 18,
+                "logo_url": null,
+                "protocol_id": "",
+                "price": 0,
+                "is_verified": false,
+                "is_core": false,
+                "is_wallet": false,
+                "time_at": 1599062504,
+                "amount": 0.000004132509224781
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x43d1a069a0ff9d01e8fce49fdd4f395617ea0b5d:0",
+            "chain": "eth",
+            "project_id": "unknown_protocol",
+            "adapter_id": "springrolls_farming",
+            "controller": "0x43d1a069a0ff9d01e8fce49fdd4f395617ea0b5d",
+            "index": "0",
+            "time_at": 1599062763
+          }
+        }
+      ]
+    }
+  ]
+}

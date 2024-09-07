@@ -1,0 +1,163 @@
+{
+  "user": {
+    "name": "Pantera Capital 5",
+    "address": "0x12ca45fed7998ba0e56f52d678823a508ba9a99e",
+    "twitterHandle": "PanteraCapital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "lido",
+      "chain": "eth",
+      "name": "LIDO",
+      "site_url": "https://stake.lido.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/lido/081388ebc44fa042561749bd5338d49e.png",
+      "has_supported_portfolio": true,
+      "tvl": 21515534932.920193,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 251.9299012728611,
+            "debt_usd_value": 0,
+            "net_usd_value": 251.9299012728611
+          },
+          "asset_dict": {
+            "eth": 0.11139996253481603
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2261.49,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 0.11139996253481603
+            }
+          ],
+          "update_at": 1725657766,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2261.49,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 0.11139996253481603
+              }
+            ],
+            "description": "stETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "chain": "eth",
+            "project_id": "lido",
+            "adapter_id": "lido_staked",
+            "controller": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "index": null,
+            "time_at": 1608242396
+          }
+        }
+      ]
+    },
+    {
+      "id": "maverick",
+      "chain": "eth",
+      "name": "Maverick",
+      "site_url": "https://app-v1.mav.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/maverick/a7a186ccd39807ad670d5ead78effb4e.png",
+      "has_supported_portfolio": true,
+      "tvl": 3384814.863984558,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 8562.226371834138,
+            "debt_usd_value": 0,
+            "net_usd_value": 8562.226371834138
+          },
+          "asset_dict": {
+            "0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd": 47940.79715472642
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+              "chain": "eth",
+              "name": "Maverick Token",
+              "symbol": "MAV",
+              "display_symbol": null,
+              "optimized_symbol": "MAV",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd/d6e114954160b20c5081c0ab15da9223.png",
+              "protocol_id": "maverick2",
+              "price": 0.1786,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1686643043,
+              "amount": 47940.79715472642
+            }
+          ],
+          "update_at": 1725657766,
+          "name": "Airdrop",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+                "chain": "eth",
+                "name": "Maverick Token",
+                "symbol": "MAV",
+                "display_symbol": null,
+                "optimized_symbol": "MAV",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd/d6e114954160b20c5081c0ab15da9223.png",
+                "protocol_id": "maverick2",
+                "price": 0.1786,
+                "is_verified": false,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1686643043,
+                "amount": 47940.79715472642
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x58adf9953e5a2d175a15dc5807aca3520bf46cb3",
+            "chain": "eth",
+            "project_id": "maverick",
+            "adapter_id": "maverick_airdrop",
+            "controller": "0x58adf9953e5a2d175a15dc5807aca3520bf46cb3",
+            "index": null,
+            "time_at": 1687893971
+          }
+        }
+      ]
+    }
+  ]
+}
