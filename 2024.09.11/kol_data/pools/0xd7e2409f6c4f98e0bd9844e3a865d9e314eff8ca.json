@@ -1,0 +1,162 @@
+{
+  "user": {
+    "name": "Collab+Currency 2",
+    "address": "0xd7e2409f6c4f98e0bd9844e3a865d9e314eff8ca",
+    "twitterHandle": "Collab_Currency",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "audius",
+      "chain": "eth",
+      "name": "Audius",
+      "site_url": "https://dashboard.audius.org",
+      "logo_url": "https://static.debank.com/image/project/logo_url/audius/80836a255f264e67dca96fbde5f38257.png",
+      "has_supported_portfolio": true,
+      "tvl": 42603302.934277385,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1684023.799317596,
+            "debt_usd_value": 0,
+            "net_usd_value": 1684023.799317596
+          },
+          "asset_dict": {
+            "0x18aaa7115705e8be94bffebde57af9bfc265b998": 13241521.842579043
+          },
+          "asset_token_list": [
+            {
+              "id": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+              "chain": "eth",
+              "name": "Audius",
+              "symbol": "AUDIO",
+              "display_symbol": null,
+              "optimized_symbol": "AUDIO",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x18aaa7115705e8be94bffebde57af9bfc265b998/8c4d2409af350ab696f37b9fde9d378d.png",
+              "protocol_id": "audius",
+              "price": 0.12717751171942332,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1603333709,
+              "amount": 13241521.842579043
+            }
+          ],
+          "update_at": 1725983955,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+                "chain": "eth",
+                "name": "Audius",
+                "symbol": "AUDIO",
+                "display_symbol": null,
+                "optimized_symbol": "AUDIO",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x18aaa7115705e8be94bffebde57af9bfc265b998/8c4d2409af350ab696f37b9fde9d378d.png",
+                "protocol_id": "audius",
+                "price": 0.12717751171942332,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1603333709,
+                "amount": 13241521.842579043
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x4d7968ebfd390d5e7926cb3587c39eff2f9fb225",
+            "chain": "eth",
+            "project_id": "audius",
+            "adapter_id": "audius_staked",
+            "controller": "0x4d7968ebfd390d5e7926cb3587c39eff2f9fb225",
+            "index": null,
+            "time_at": 1603334828
+          }
+        }
+      ]
+    },
+    {
+      "id": "eth2",
+      "chain": "eth",
+      "name": "Eth2",
+      "site_url": "https://launchpad.ethereum.org",
+      "logo_url": "https://static.debank.com/image/project/logo_url/eth2/6da319fb51fbc4548ee66448fda02130.png",
+      "has_supported_portfolio": true,
+      "tvl": 78759820909.43332,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 23631824.730175465,
+            "debt_usd_value": 0,
+            "net_usd_value": 23631824.730175465
+          },
+          "asset_dict": {
+            "eth": 9989.949411630001
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2365.56,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 9989.949411630001
+            }
+          ],
+          "update_at": 1726017768,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2365.56,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 9989.949411630001
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x00000000219ab540356cbb839cbe05303d7705fa",
+            "chain": "eth",
+            "project_id": "eth2",
+            "adapter_id": "eth_pos_staked",
+            "controller": "0x00000000219ab540356cbb839cbe05303d7705fa",
+            "index": null,
+            "time_at": 1602667372
+          }
+        }
+      ]
+    }
+  ]
+}

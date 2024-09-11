@@ -1,0 +1,1117 @@
+{
+  "user": {
+    "name": "Defiance Capital 1",
+    "address": "0x7e4b4dc22111b84594d9b7707a8dcffd793d477a",
+    "twitterHandle": "DeFianceCapital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "aave2",
+      "chain": "eth",
+      "name": "Aave V2",
+      "site_url": "https://app.aave.com",
+      "logo_url": "https://static.debank.com/image/project/logo_url/aave2/b8d1ef85570855176b102edf8cda6f8d.png",
+      "has_supported_portfolio": true,
+      "tvl": 1405719033.657088,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.037110930531381675,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.037110930531381675
+          },
+          "asset_dict": {
+            "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": 0.000248709171386854
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+              "chain": "eth",
+              "name": "Aave Token",
+              "symbol": "AAVE",
+              "display_symbol": null,
+              "optimized_symbol": "AAVE",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9/7baf403c819f679dc1c6571d9d978f21.png",
+              "protocol_id": "aave",
+              "price": 149.21416176349035,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1600970788,
+              "amount": 0.000248709171386854
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [],
+            "reward_token_list": [
+              {
+                "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "chain": "eth",
+                "name": "Aave Token",
+                "symbol": "AAVE",
+                "display_symbol": null,
+                "optimized_symbol": "AAVE",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9/7baf403c819f679dc1c6571d9d978f21.png",
+                "protocol_id": "aave",
+                "price": 149.21416176349035,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1600970788,
+                "amount": 0.000248709171386854
+              }
+            ],
+            "health_rate": 1.157920892373162e+59
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+            "chain": "eth",
+            "project_id": "aave2",
+            "adapter_id": "aave_proxy_lending",
+            "controller": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+            "index": null,
+            "time_at": 1606771548
+          }
+        }
+      ]
+    },
+    {
+      "id": "aave3",
+      "chain": "eth",
+      "name": "Aave V3",
+      "site_url": "https://app.aave.com",
+      "logo_url": "https://static.debank.com/image/project/logo_url/aave3/07bc2403c8c357d2317db15d64872314.png",
+      "has_supported_portfolio": true,
+      "tvl": 8515635507.986015,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 10216097.87474076,
+            "debt_usd_value": 0,
+            "net_usd_value": 10216097.87474076
+          },
+          "asset_dict": {
+            "0x6c3ea9036406852006290770bedfcaba0e23a0e8": 10218861.337563
+          },
+          "asset_token_list": [
+            {
+              "id": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+              "chain": "eth",
+              "name": "PayPal USD",
+              "symbol": "PYUSD",
+              "display_symbol": null,
+              "optimized_symbol": "PYUSD",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6c3ea9036406852006290770bedfcaba0e23a0e8/8af98a6a2c36c107eeb4b349fddb51b0.png",
+              "protocol_id": "",
+              "price": 0.9997295723338488,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1667870087,
+              "amount": 10218861.337563
+            }
+          ],
+          "update_at": 1725971260,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+                "chain": "eth",
+                "name": "PayPal USD",
+                "symbol": "PYUSD",
+                "display_symbol": null,
+                "optimized_symbol": "PYUSD",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6c3ea9036406852006290770bedfcaba0e23a0e8/8af98a6a2c36c107eeb4b349fddb51b0.png",
+                "protocol_id": "",
+                "price": 0.9997295723338488,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1667870087,
+                "amount": 10218861.337563
+              }
+            ],
+            "health_rate": 1.157920892373162e+59
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "chain": "eth",
+            "project_id": "aave3",
+            "adapter_id": "aave3_proxy_lending",
+            "controller": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "index": null,
+            "time_at": 1672325495
+          }
+        }
+      ]
+    },
+    {
+      "id": "avax_insurace",
+      "chain": "avax",
+      "name": "Insurace",
+      "site_url": "https://app.insurace.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/avax_insurace/1838dddbdf493d36fb103fb76b56d244.png",
+      "has_supported_portfolio": true,
+      "tvl": 33168.41873657755,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 4.4522881621777726e-17,
+            "debt_usd_value": 0,
+            "net_usd_value": 4.4522881621777726e-17
+          },
+          "asset_dict": {
+            "avax": 1.4424933277264849e-18,
+            "0x544c42fbb96b39b21df61cf322b5edc285ee7429": 7.11e-16
+          },
+          "asset_token_list": [
+            {
+              "id": "avax",
+              "chain": "avax",
+              "name": "AVAX",
+              "symbol": "AVAX",
+              "display_symbol": null,
+              "optimized_symbol": "AVAX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/avax_token/logo_url/avax/0b9c84359c84d6bdd5bfda9c2d4c4a82.png",
+              "protocol_id": "",
+              "price": 24.27,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": null,
+              "amount": 1.4424933277264849e-18
+            },
+            {
+              "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+              "chain": "avax",
+              "name": "Avalanche INSUR Token",
+              "symbol": "INSUR",
+              "display_symbol": null,
+              "optimized_symbol": "INSUR",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/avax_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/1838dddbdf493d36fb103fb76b56d244.png",
+              "protocol_id": "avax_insurace",
+              "price": 0.01338054649487474,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1632989501,
+              "amount": 7.11e-16
+            }
+          ],
+          "update_at": 1725975561,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "avax",
+                "chain": "avax",
+                "name": "AVAX",
+                "symbol": "AVAX",
+                "display_symbol": null,
+                "optimized_symbol": "AVAX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/avax_token/logo_url/avax/0b9c84359c84d6bdd5bfda9c2d4c4a82.png",
+                "protocol_id": "",
+                "price": 24.27,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": null,
+                "amount": 1.4424933277264849e-18
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "avax",
+                "name": "Avalanche INSUR Token",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/avax_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/1838dddbdf493d36fb103fb76b56d244.png",
+                "protocol_id": "avax_insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1632989501,
+                "amount": 7.11e-16
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0xdecafc91000d4d3802a0562a8fb896f29b6a7480",
+          "pool": {
+            "id": "0x599b132328a07b51b833609314824570a99ab9b0",
+            "chain": "avax",
+            "project_id": "avax_insurace",
+            "adapter_id": "insurance_farming",
+            "controller": "0x599b132328a07b51b833609314824570a99ab9b0",
+            "index": null,
+            "time_at": 1633083532
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 7995.21040651943,
+            "debt_usd_value": 0,
+            "net_usd_value": 7995.21040651943
+          },
+          "asset_dict": {
+            "0x544c42fbb96b39b21df61cf322b5edc285ee7429": 597524.9523314986
+          },
+          "asset_token_list": [
+            {
+              "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+              "chain": "avax",
+              "name": "Avalanche INSUR Token",
+              "symbol": "INSUR",
+              "display_symbol": null,
+              "optimized_symbol": "INSUR",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/avax_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/1838dddbdf493d36fb103fb76b56d244.png",
+              "protocol_id": "avax_insurace",
+              "price": 0.01338054649487474,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1632989501,
+              "amount": 597524.9523314986
+            }
+          ],
+          "update_at": 1725975561,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "avax",
+                "name": "Avalanche INSUR Token",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/avax_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/1838dddbdf493d36fb103fb76b56d244.png",
+                "protocol_id": "avax_insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1632989501,
+                "amount": 593598.1869313841
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "avax",
+                "name": "Avalanche INSUR Token",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/avax_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/1838dddbdf493d36fb103fb76b56d244.png",
+                "protocol_id": "avax_insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1632989501,
+                "amount": 3926.7654001144774
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0x563d10af7395db31f9b0030b39fc4e3ef2598fee",
+          "pool": {
+            "id": "0x599b132328a07b51b833609314824570a99ab9b0",
+            "chain": "avax",
+            "project_id": "avax_insurace",
+            "adapter_id": "insurance_farming",
+            "controller": "0x599b132328a07b51b833609314824570a99ab9b0",
+            "index": null,
+            "time_at": 1633083532
+          }
+        }
+      ]
+    },
+    {
+      "id": "balancer2",
+      "chain": "eth",
+      "name": "Balancer V2",
+      "site_url": "https://balancer.finance",
+      "logo_url": "https://static.debank.com/image/project/logo_url/balancer2/4318f98916b139a44996fc06531e9074.png",
+      "has_supported_portfolio": true,
+      "tvl": 530340473.3891216,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 4.882407409499292e-15,
+            "debt_usd_value": 0,
+            "net_usd_value": 4.882407409499292e-15
+          },
+          "asset_dict": {
+            "0xdac17f958d2ee523a2206206994597c13d831ec7": 1.6211385442094403e-15,
+            "0x6b175474e89094c44da98b954eedeac495271d0f": 8.966614647126677e-16,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 2.3650394245499943e-15
+          },
+          "asset_token_list": [
+            {
+              "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "chain": "eth",
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "display_symbol": "",
+              "optimized_symbol": "USDT",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+              "protocol_id": "",
+              "price": 0.99999,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1511829681,
+              "amount": 1.6211385442094403e-15
+            },
+            {
+              "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+              "chain": "eth",
+              "name": "Dai Stablecoin",
+              "symbol": "DAI",
+              "display_symbol": "",
+              "optimized_symbol": "DAI",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png",
+              "protocol_id": "makerdao",
+              "price": 0.9998,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1573672677,
+              "amount": 8.966614647126677e-16
+            },
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 0.9999000099990001,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 2.3650394245499943e-15
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Liquidity Pool",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "chain": "eth",
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "display_symbol": "",
+                "optimized_symbol": "USDT",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+                "protocol_id": "",
+                "price": 0.99999,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1511829681,
+                "amount": 1.6211385442094403e-15
+              },
+              {
+                "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "chain": "eth",
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "display_symbol": "",
+                "optimized_symbol": "DAI",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png",
+                "protocol_id": "makerdao",
+                "price": 0.9998,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1573672677,
+                "amount": 8.966614647126677e-16
+              },
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 0.9999000099990001,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 2.3650394245499943e-15
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2",
+            "chain": "eth",
+            "project_id": "balancer2",
+            "adapter_id": "balancer2_liquidity",
+            "controller": "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2",
+            "index": null,
+            "time_at": 1639435704
+          }
+        }
+      ]
+    },
+    {
+      "id": "insurace",
+      "chain": "eth",
+      "name": "InsurAce",
+      "site_url": "https://app.insurace.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/insurace/1838dddbdf493d36fb103fb76b56d244.png",
+      "has_supported_portfolio": true,
+      "tvl": 117543.56444202147,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1.7142314073032169e-15,
+            "debt_usd_value": 0,
+            "net_usd_value": 1.7142314073032169e-15
+          },
+          "asset_dict": {
+            "eth": 7.209045429450088e-19,
+            "0x544c42fbb96b39b21df61cf322b5edc285ee7429": 7.09e-16
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2364.73,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 7.209045429450088e-19
+            },
+            {
+              "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+              "chain": "eth",
+              "name": "InsurAce",
+              "symbol": "INSUR",
+              "display_symbol": null,
+              "optimized_symbol": "INSUR",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+              "protocol_id": "insurace",
+              "price": 0.01338054649487474,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1614855378,
+              "amount": 7.09e-16
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2364.73,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 7.209045429450088e-19
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "eth",
+                "name": "InsurAce",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+                "protocol_id": "insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1614855378,
+                "amount": 7.09e-16
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0xdf8bec949367b677b7c951219ed66035ddc73d3f",
+          "pool": {
+            "id": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+            "chain": "eth",
+            "project_id": "insurace",
+            "adapter_id": "insurance_farming",
+            "controller": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+            "index": null,
+            "time_at": 1619250586
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 0.0000015453308095341596,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.0000015453308095341596
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 0.000001441809085842047,
+            "0x544c42fbb96b39b21df61cf322b5edc285ee7429": 0.000007747507938017
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 0.9999000099990001,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 0.000001441809085842047
+            },
+            {
+              "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+              "chain": "eth",
+              "name": "InsurAce",
+              "symbol": "INSUR",
+              "display_symbol": null,
+              "optimized_symbol": "INSUR",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+              "protocol_id": "insurace",
+              "price": 0.01338054649487474,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1614855378,
+              "amount": 0.000007747507938017
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 0.9999000099990001,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 0.000001441809085842047
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "eth",
+                "name": "InsurAce",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+                "protocol_id": "insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1614855378,
+                "amount": 0.000007747507938017
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0x3d9317a27f3d83f0821deeeb0befdb68d4c9cd47",
+          "pool": {
+            "id": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+            "chain": "eth",
+            "project_id": "insurace",
+            "adapter_id": "insurance_farming",
+            "controller": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+            "index": null,
+            "time_at": 1619250586
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 1.9856672199621708e-20,
+            "debt_usd_value": 0,
+            "net_usd_value": 1.9856672199621708e-20
+          },
+          "asset_dict": {
+            "0x544c42fbb96b39b21df61cf322b5edc285ee7429": 1.4839956056523978e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+              "chain": "eth",
+              "name": "InsurAce",
+              "symbol": "INSUR",
+              "display_symbol": null,
+              "optimized_symbol": "INSUR",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+              "protocol_id": "insurace",
+              "price": 0.01338054649487474,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1614855378,
+              "amount": 1.4839956056523978e-18
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "eth",
+                "name": "InsurAce",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+                "protocol_id": "insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1614855378,
+                "amount": 1.4839956056523978e-18
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+                "chain": "eth",
+                "name": "InsurAce",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x544c42fbb96b39b21df61cf322b5edc285ee7429/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+                "protocol_id": "insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1614855378,
+                "amount": 0
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0x7e68521a2814a84868da716b9f436b53e6764c1d",
+          "pool": {
+            "id": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+            "chain": "eth",
+            "project_id": "insurace",
+            "adapter_id": "insurance_farming",
+            "controller": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+            "index": null,
+            "time_at": 1619250586
+          }
+        }
+      ]
+    },
+    {
+      "id": "matic_insurace",
+      "chain": "matic",
+      "name": "InsurAce",
+      "site_url": "https://app.insurace.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/matic_insurace/1838dddbdf493d36fb103fb76b56d244.png",
+      "has_supported_portfolio": true,
+      "tvl": 282092.48454162054,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2.9785007911325306e-20,
+            "debt_usd_value": 0,
+            "net_usd_value": 2.9785007911325306e-20
+          },
+          "asset_dict": {
+            "0x8a0e8b4b0903929f47c3ea30973940d4a9702067": 2.22599337947326e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "0x8a0e8b4b0903929f47c3ea30973940d4a9702067",
+              "chain": "matic",
+              "name": "InsurAce (PoS)",
+              "symbol": "INSUR",
+              "display_symbol": null,
+              "optimized_symbol": "INSUR",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x8a0e8b4b0903929f47c3ea30973940d4a9702067/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+              "protocol_id": "matic_insurace",
+              "price": 0.01338054649487474,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1629781916,
+              "amount": 2.22599337947326e-18
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Farming",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x8a0e8b4b0903929f47c3ea30973940d4a9702067",
+                "chain": "matic",
+                "name": "InsurAce (PoS)",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x8a0e8b4b0903929f47c3ea30973940d4a9702067/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+                "protocol_id": "matic_insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1629781916,
+                "amount": 2.22599337947326e-18
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x8a0e8b4b0903929f47c3ea30973940d4a9702067",
+                "chain": "matic",
+                "name": "InsurAce (PoS)",
+                "symbol": "INSUR",
+                "display_symbol": null,
+                "optimized_symbol": "INSUR",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x8a0e8b4b0903929f47c3ea30973940d4a9702067/f4e8cd10b00b967bbb82d80ca9f53bb1.png",
+                "protocol_id": "matic_insurace",
+                "price": 0.01338054649487474,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1629781916,
+                "amount": 0
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "position_index": "0xdbbb520b40c7b7c6498dbd532aee5e28c62b3611",
+          "pool": {
+            "id": "0xd50e8ce9d5c1f5228bcc77e318907bb4960578ef",
+            "chain": "matic",
+            "project_id": "matic_insurace",
+            "adapter_id": "insurance_farming",
+            "controller": "0xd50e8ce9d5c1f5228bcc77e318907bb4960578ef",
+            "index": null,
+            "time_at": 1630653772
+          }
+        }
+      ]
+    },
+    {
+      "id": "morphoblue",
+      "chain": "eth",
+      "name": "Morpho Blue",
+      "site_url": "https://app.morpho.org",
+      "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x9994e35db50125e0df82e4c2dde62496ce330999/9e857a618de0fc2bd49848fc0b0dace0.png",
+      "has_supported_portfolio": true,
+      "tvl": 855304431.4440364,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 825726.8840180298,
+            "debt_usd_value": 0,
+            "net_usd_value": 825726.8840180298
+          },
+          "asset_dict": {
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": 349.1844244450867
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "chain": "eth",
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "display_symbol": null,
+              "optimized_symbol": "WETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png",
+              "protocol_id": "weth",
+              "price": 2364.73,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1513077455,
+              "amount": 349.1844244450867
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "chain": "eth",
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "display_symbol": null,
+                "optimized_symbol": "WETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png",
+                "protocol_id": "weth",
+                "price": 2364.73,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1513077455,
+                "amount": 349.1844244450867
+              }
+            ],
+            "description": "Flagship ETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x38989bba00bdf8181f4082995b3deae96163ac5d",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "tokenized_vault_yield",
+            "controller": "0x38989bba00bdf8181f4082995b3deae96163ac5d",
+            "index": null,
+            "time_at": 1704292895
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 1199914.5187331266,
+            "debt_usd_value": 0,
+            "net_usd_value": 1199914.5187331266
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 1200034.510185
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 0.9999000099990001,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 1200034.510185
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 0.9999000099990001,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 1200034.510185
+              }
+            ],
+            "description": "Steakhouse USDC"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "tokenized_vault_yield",
+            "controller": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb",
+            "index": null,
+            "time_at": 1704302495
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 9099615.5685998,
+            "debt_usd_value": 0,
+            "net_usd_value": 9099615.5685998
+          },
+          "asset_dict": {
+            "0x6c3ea9036406852006290770bedfcaba0e23a0e8": 9102077.022046
+          },
+          "asset_token_list": [
+            {
+              "id": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+              "chain": "eth",
+              "name": "PayPal USD",
+              "symbol": "PYUSD",
+              "display_symbol": null,
+              "optimized_symbol": "PYUSD",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6c3ea9036406852006290770bedfcaba0e23a0e8/8af98a6a2c36c107eeb4b349fddb51b0.png",
+              "protocol_id": "",
+              "price": 0.9997295723338488,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1667870087,
+              "amount": 9102077.022046
+            }
+          ],
+          "update_at": 1725971259,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+                "chain": "eth",
+                "name": "PayPal USD",
+                "symbol": "PYUSD",
+                "display_symbol": null,
+                "optimized_symbol": "PYUSD",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6c3ea9036406852006290770bedfcaba0e23a0e8/8af98a6a2c36c107eeb4b349fddb51b0.png",
+                "protocol_id": "",
+                "price": 0.9997295723338488,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1667870087,
+                "amount": 9102077.022046
+              }
+            ],
+            "description": "Steakhouse PYUSD"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xbeef02e5e13584ab96848af90261f0c8ee04722a",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "tokenized_vault_yield",
+            "controller": "0xbeef02e5e13584ab96848af90261f0c8ee04722a",
+            "index": null,
+            "time_at": 1705697315
+          }
+        }
+      ]
+    }
+  ]
+}

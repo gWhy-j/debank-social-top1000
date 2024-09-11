@@ -1,0 +1,162 @@
+{
+  "user": {
+    "name": "Beeple",
+    "address": "0xc6b0562605D35eE710138402B878ffe6F2E23807",
+    "twitterHandle": "beeple",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "blur",
+      "chain": "eth",
+      "name": "Blur",
+      "site_url": "https://blur.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/blur/36f14ae1fe633d1c58da060566bf695f.png",
+      "has_supported_portfolio": true,
+      "tvl": 473696233.1625738,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 4368.725074999999,
+            "debt_usd_value": 0,
+            "net_usd_value": 4368.725074999999
+          },
+          "asset_dict": {
+            "eth": 1.89475
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2305.7,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 1.89475
+            }
+          ],
+          "update_at": 1725851360,
+          "name": "Deposit",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2305.7,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 1.89475
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x0000000000a39bb272e79075ade125fd351887ac",
+            "chain": "eth",
+            "project_id": "blur",
+            "adapter_id": "blur_deposit",
+            "controller": "0x0000000000a39bb272e79075ade125fd351887ac",
+            "index": null,
+            "time_at": 1670120123
+          }
+        }
+      ]
+    },
+    {
+      "id": "op_optimism",
+      "chain": "op",
+      "name": "Optimism",
+      "site_url": "https://www.optimism.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/op_optimism/5b42ae489cd2181dd500137c21ca00e2.png",
+      "has_supported_portfolio": true,
+      "tvl": 86903.19757153877,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 671.7107647030276,
+            "debt_usd_value": 0,
+            "net_usd_value": 671.7107647030276
+          },
+          "asset_dict": {
+            "0x4200000000000000000000000000000000000042": 464.69094756349193
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4200000000000000000000000000000000000042",
+              "chain": "op",
+              "name": "Optimism",
+              "symbol": "OP",
+              "display_symbol": null,
+              "optimized_symbol": "OP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x4200000000000000000000000000000000000042/029a56df18f88f4123120fdcb6bea40b.png",
+              "protocol_id": "op_optimism",
+              "price": 1.4455,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": null,
+              "amount": 464.69094756349193
+            }
+          ],
+          "update_at": 1725854580,
+          "name": "Airdrop",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4200000000000000000000000000000000000042",
+                "chain": "op",
+                "name": "Optimism",
+                "symbol": "OP",
+                "display_symbol": null,
+                "optimized_symbol": "OP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/op_token/logo_url/0x4200000000000000000000000000000000000042/029a56df18f88f4123120fdcb6bea40b.png",
+                "protocol_id": "op_optimism",
+                "price": 1.4455,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": null,
+                "amount": 464.69094756349193
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xfb4d5a94b516df77fbdbcf3cfeb262baaf7d4db7",
+            "chain": "op",
+            "project_id": "op_optimism",
+            "adapter_id": "optimism_airdrop2",
+            "controller": "0xfb4d5a94b516df77fbdbcf3cfeb262baaf7d4db7",
+            "index": null,
+            "time_at": 1708121709
+          }
+        }
+      ]
+    }
+  ]
+}
