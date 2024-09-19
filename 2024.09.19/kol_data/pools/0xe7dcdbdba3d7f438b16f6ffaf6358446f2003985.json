@@ -1,0 +1,163 @@
+{
+  "user": {
+    "name": "Dialectic 2",
+    "address": "0xe7dcdbdba3d7f438b16f6ffaf6358446f2003985",
+    "twitterHandle": "",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "lido",
+      "chain": "eth",
+      "name": "LIDO",
+      "site_url": "https://stake.lido.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/lido/081388ebc44fa042561749bd5338d49e.png",
+      "has_supported_portfolio": true,
+      "tvl": 22464016740.12855,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2.3910700000000004e-15,
+            "debt_usd_value": 0,
+            "net_usd_value": 2.3910700000000004e-15
+          },
+          "asset_dict": {
+            "eth": 1e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2391.07,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 1e-18
+            }
+          ],
+          "update_at": 1726682812,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2391.07,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 1e-18
+              }
+            ],
+            "description": "stETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "chain": "eth",
+            "project_id": "lido",
+            "adapter_id": "lido_staked",
+            "controller": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "index": null,
+            "time_at": 1608242396
+          }
+        }
+      ]
+    },
+    {
+      "id": "yieldguild",
+      "chain": "eth",
+      "name": "Yield Guild Games",
+      "site_url": "https://www.yieldguild.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/yieldguild/8e4bbf0a70687976e8bcb5f6f2baf7bd.png",
+      "has_supported_portfolio": true,
+      "tvl": 41341052.10601586,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 22024.456153278297,
+            "debt_usd_value": 0,
+            "net_usd_value": 22024.456153278297
+          },
+          "asset_dict": {
+            "0x25f8087ead173b73d6e8b84329989a8eea16cf73": 51882.80552339831
+          },
+          "asset_token_list": [
+            {
+              "id": "0x25f8087ead173b73d6e8b84329989a8eea16cf73",
+              "chain": "eth",
+              "name": "Yield Guild Games Token",
+              "symbol": "YGG",
+              "display_symbol": null,
+              "optimized_symbol": "YGG",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x25f8087ead173b73d6e8b84329989a8eea16cf73/4e2b963e26b873bc69a918edde1309bf.png",
+              "protocol_id": "yieldguild",
+              "price": 0.4245039552332154,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1627299017,
+              "amount": 51882.80552339831,
+              "claimable_amount": 51882.80552339831
+            }
+          ],
+          "update_at": 1726653533,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x25f8087ead173b73d6e8b84329989a8eea16cf73",
+              "chain": "eth",
+              "name": "Yield Guild Games Token",
+              "symbol": "YGG",
+              "display_symbol": null,
+              "optimized_symbol": "YGG",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x25f8087ead173b73d6e8b84329989a8eea16cf73/4e2b963e26b873bc69a918edde1309bf.png",
+              "protocol_id": "yieldguild",
+              "price": 0.4245039552332154,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1627299017,
+              "amount": 51882.80552339831,
+              "claimable_amount": 51882.80552339831
+            }
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x212ea08aade1bad779057fb37aaa4377fc61c071",
+            "chain": "eth",
+            "project_id": "yieldguild",
+            "adapter_id": "ygg_vesting",
+            "controller": "0x212ea08aade1bad779057fb37aaa4377fc61c071",
+            "index": null,
+            "time_at": 1644260894
+          }
+        }
+      ]
+    }
+  ]
+}

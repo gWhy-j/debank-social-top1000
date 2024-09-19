@@ -1,0 +1,122 @@
+{
+  "user": {
+    "name": "Kenetic Capital",
+    "address": "0x7d25cfa4621c19f8d85f05cfd3b159092f22388e",
+    "twitterHandle": "KeneticCapital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "matic_ichi",
+      "chain": "matic",
+      "name": "ICHI",
+      "site_url": "https://app.ichi.org",
+      "logo_url": "https://static.debank.com/image/project/logo_url/matic_ichi/37cb1e0cb6c7e65728c339737ebf5f9b.png",
+      "has_supported_portfolio": true,
+      "tvl": 1705864.38113658,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 5813.567115637637,
+            "debt_usd_value": 0,
+            "net_usd_value": 5813.567115637637
+          },
+          "asset_dict": {
+            "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": 0.7889383633090064,
+            "0xc5b57e9a1e7914fda753a88f24e5703e617ee50c": 637200.3677004164
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+              "chain": "matic",
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "display_symbol": null,
+              "optimized_symbol": "WETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619/61844453e63cf81301f845d7864236f6.png",
+              "protocol_id": "",
+              "price": 2357.59,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1598443525,
+              "amount": 0.7889383633090064
+            },
+            {
+              "id": "0xc5b57e9a1e7914fda753a88f24e5703e617ee50c",
+              "chain": "matic",
+              "name": "Popcorn (PoS)",
+              "symbol": "POP",
+              "display_symbol": null,
+              "optimized_symbol": "POP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/matic_token/logo_url/0xc5b57e9a1e7914fda753a88f24e5703e617ee50c/41dcbcb4a675480acd535ff047f024ba.png",
+              "protocol_id": "matic_popcorn",
+              "price": 0.006204600813323374,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1635639105,
+              "amount": 637200.3677004164
+            }
+          ],
+          "update_at": 1726186630,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                "chain": "matic",
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "display_symbol": null,
+                "optimized_symbol": "WETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619/61844453e63cf81301f845d7864236f6.png",
+                "protocol_id": "",
+                "price": 2357.59,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1598443525,
+                "amount": 0.7889383633090064
+              },
+              {
+                "id": "0xc5b57e9a1e7914fda753a88f24e5703e617ee50c",
+                "chain": "matic",
+                "name": "Popcorn (PoS)",
+                "symbol": "POP",
+                "display_symbol": null,
+                "optimized_symbol": "POP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/matic_token/logo_url/0xc5b57e9a1e7914fda753a88f24e5703e617ee50c/41dcbcb4a675480acd535ff047f024ba.png",
+                "protocol_id": "matic_popcorn",
+                "price": 0.006204600813323374,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1635639105,
+                "amount": 637200.3677004164
+              }
+            ],
+            "description": "ICHI_Vault_LP"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x6bd9239e675092306833c0b29aa552e64d885599",
+            "chain": "matic",
+            "project_id": "matic_ichi",
+            "adapter_id": "ichi_v1_vault_yield",
+            "controller": "0x6bd9239e675092306833c0b29aa552e64d885599",
+            "index": null,
+            "time_at": 1683491324
+          }
+        }
+      ]
+    }
+  ]
+}

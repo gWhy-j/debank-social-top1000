@@ -1,0 +1,490 @@
+{
+  "user": {
+    "name": "kain",
+    "address": "0x27cc4d6bc95b55a3a981bf1f1c7261cda7bb0931",
+    "twitterHandle": "kaiynne",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "op_kwenta",
+      "chain": "op",
+      "name": "Kwenta",
+      "site_url": "https://kwenta.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/op_kwenta/96cbf6c48a7a35ec4b6e2c9801eab0f8.png",
+      "has_supported_portfolio": true,
+      "tvl": 55688831.6528294,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 20.078622804945287,
+            "debt_usd_value": 0,
+            "net_usd_value": 20.078622804945287
+          },
+          "asset_dict": {
+            "0x920cf626a271321c151d027030d5d08af699456b": 0.4177280027188814
+          },
+          "asset_token_list": [
+            {
+              "id": "0x920cf626a271321c151d027030d5d08af699456b",
+              "chain": "op",
+              "name": "Kwenta",
+              "symbol": "KWENTA",
+              "display_symbol": null,
+              "optimized_symbol": "KWENTA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x920cf626a271321c151d027030d5d08af699456b/3c3b5523f2c279ed9c6a465e26627d4a.png",
+              "protocol_id": "op_kwenta",
+              "price": 48.06626004064565,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1668027387,
+              "amount": 0.4177280027188814
+            }
+          ],
+          "update_at": 1726152602,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x920cf626a271321c151d027030d5d08af699456b",
+              "chain": "op",
+              "name": "Kwenta",
+              "symbol": "KWENTA",
+              "display_symbol": null,
+              "optimized_symbol": "KWENTA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x920cf626a271321c151d027030d5d08af699456b/3c3b5523f2c279ed9c6a465e26627d4a.png",
+              "protocol_id": "op_kwenta",
+              "price": 48.06626004064565,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1668027387,
+              "amount": 0.4177280027188814
+            }
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xb2a20fcdc506a685122847b21e34536359e94c56",
+            "chain": "op",
+            "project_id": "op_kwenta",
+            "adapter_id": "kwenta_vesting",
+            "controller": "0xb2a20fcdc506a685122847b21e34536359e94c56",
+            "index": null,
+            "time_at": 1694705117
+          }
+        }
+      ]
+    },
+    {
+      "id": "op_polynomial",
+      "chain": "op",
+      "name": "Polynomial",
+      "site_url": "https://www.polynomial.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/op_polynomial/8e573734f923280da2192cf3e46312c2.png",
+      "has_supported_portfolio": true,
+      "tvl": 120413.4512961209,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 173.7800986699605,
+            "debt_usd_value": 0,
+            "net_usd_value": 173.7800986699605
+          },
+          "asset_dict": {
+            "0x4200000000000000000000000000000000000042": 113.071832045
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4200000000000000000000000000000000000042",
+              "chain": "op",
+              "name": "Optimism",
+              "symbol": "OP",
+              "display_symbol": null,
+              "optimized_symbol": "OP",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x4200000000000000000000000000000000000042/029a56df18f88f4123120fdcb6bea40b.png",
+              "protocol_id": "op_optimism",
+              "price": 1.5369,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": null,
+              "amount": 113.071832045
+            }
+          ],
+          "update_at": 1726152602,
+          "name": "Deposit",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4200000000000000000000000000000000000042",
+                "chain": "op",
+                "name": "Optimism",
+                "symbol": "OP",
+                "display_symbol": null,
+                "optimized_symbol": "OP",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/op_token/logo_url/0x4200000000000000000000000000000000000042/029a56df18f88f4123120fdcb6bea40b.png",
+                "protocol_id": "op_optimism",
+                "price": 1.5369,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": null,
+                "amount": 113.071832045
+              }
+            ],
+            "description": "Proxy Balance #0x67e8596d42dbf1632780f753145d4b5116436742"
+          },
+          "proxy_detail": {},
+          "position_index": "0x67e8596d42dbf1632780f753145d4b5116436742",
+          "pool": {
+            "id": "0xb43c0899eccf98bc7a0f3e2c2a211d6fc4f9b3fe",
+            "chain": "op",
+            "project_id": "op_polynomial",
+            "adapter_id": "polynomial_deposit",
+            "controller": "0xb43c0899eccf98bc7a0f3e2c2a211d6fc4f9b3fe",
+            "index": null,
+            "time_at": 1675768907
+          }
+        }
+      ]
+    },
+    {
+      "id": "op_thales",
+      "chain": "op",
+      "name": "Thales",
+      "site_url": "https://thalesmarket.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/op_thales/d81ac36da64b4db885aa6d68808e8e59.png",
+      "has_supported_portfolio": true,
+      "tvl": 4724336.8937999625,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 136.263849163524,
+            "debt_usd_value": 0,
+            "net_usd_value": 136.263849163524
+          },
+          "asset_dict": {
+            "0x217d47011b23bb961eb6d93ca9945b7501a5bb11": 802.4961670407772
+          },
+          "asset_token_list": [
+            {
+              "id": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+              "chain": "op",
+              "name": "Thales DAO Token",
+              "symbol": "THALES",
+              "display_symbol": null,
+              "optimized_symbol": "THALES",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x217d47011b23bb961eb6d93ca9945b7501a5bb11/0cc85ecb36d87b46ab7ce957e9b1bdd2.png",
+              "protocol_id": "op_thales",
+              "price": 0.1698,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1643046427,
+              "amount": 802.4961670407772,
+              "claimable_amount": 802.4961670407772
+            }
+          ],
+          "update_at": 1726152602,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+              "chain": "op",
+              "name": "Thales DAO Token",
+              "symbol": "THALES",
+              "display_symbol": null,
+              "optimized_symbol": "THALES",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x217d47011b23bb961eb6d93ca9945b7501a5bb11/0cc85ecb36d87b46ab7ce957e9b1bdd2.png",
+              "protocol_id": "op_thales",
+              "price": 0.1698,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1643046427,
+              "amount": 802.4961670407772,
+              "claimable_amount": 802.4961670407772
+            }
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xa25816b9605009aa446d4d597f0aa46fd828f056",
+            "chain": "op",
+            "project_id": "op_thales",
+            "adapter_id": "thales_vesting",
+            "controller": "0xa25816b9605009aa446d4d597f0aa46fd828f056",
+            "index": null,
+            "time_at": 1643296707
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 0.36491929352985625,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.36491929352985625
+          },
+          "asset_dict": {
+            "0x217d47011b23bb961eb6d93ca9945b7501a5bb11": 0.5088702993270086,
+            "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9": 0.2808852060499056
+          },
+          "asset_token_list": [
+            {
+              "id": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+              "chain": "op",
+              "name": "Thales DAO Token",
+              "symbol": "THALES",
+              "display_symbol": null,
+              "optimized_symbol": "THALES",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x217d47011b23bb961eb6d93ca9945b7501a5bb11/0cc85ecb36d87b46ab7ce957e9b1bdd2.png",
+              "protocol_id": "op_thales",
+              "price": 0.1698,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1643046427,
+              "amount": 0.5088702993270086
+            },
+            {
+              "id": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+              "chain": "op",
+              "name": "Synth sUSD",
+              "symbol": "sUSD",
+              "display_symbol": null,
+              "optimized_symbol": "sUSD",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9/c699f829018dea55b6b49da32bc9a90d.png",
+              "protocol_id": "op_synthetix",
+              "price": 0.9915549509383776,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": null,
+              "amount": 0.2808852060499056
+            }
+          ],
+          "update_at": 1726152602,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+                "chain": "op",
+                "name": "Thales DAO Token",
+                "symbol": "THALES",
+                "display_symbol": null,
+                "optimized_symbol": "THALES",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/op_token/logo_url/0x217d47011b23bb961eb6d93ca9945b7501a5bb11/0cc85ecb36d87b46ab7ce957e9b1bdd2.png",
+                "protocol_id": "op_thales",
+                "price": 0.1698,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1643046427,
+                "amount": 1.080017563e-9
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+                "chain": "op",
+                "name": "Thales DAO Token",
+                "symbol": "THALES",
+                "display_symbol": null,
+                "optimized_symbol": "THALES",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/op_token/logo_url/0x217d47011b23bb961eb6d93ca9945b7501a5bb11/0cc85ecb36d87b46ab7ce957e9b1bdd2.png",
+                "protocol_id": "op_thales",
+                "price": 0.1698,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1643046427,
+                "amount": 0.508870298246991
+              },
+              {
+                "id": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+                "chain": "op",
+                "name": "Synth sUSD",
+                "symbol": "sUSD",
+                "display_symbol": null,
+                "optimized_symbol": "sUSD",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/op_token/logo_url/0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9/c699f829018dea55b6b49da32bc9a90d.png",
+                "protocol_id": "op_synthetix",
+                "price": 0.9915549509383776,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": null,
+                "amount": 0.2808852060499056
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc392133eea695603b51a5d5de73655d571c2ce51",
+            "chain": "op",
+            "project_id": "op_thales",
+            "adapter_id": "thales_staked",
+            "controller": "0xc392133eea695603b51a5d5de73655d571c2ce51",
+            "index": null,
+            "time_at": 1643296707
+          }
+        }
+      ]
+    },
+    {
+      "id": "synthetix",
+      "chain": "eth",
+      "name": "Synthetix",
+      "site_url": "https://synthetix.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/synthetix/60c2a9477997428e188e6d37412c1d51.png",
+      "has_supported_portfolio": true,
+      "tvl": 77873325.20459792,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 21157550.290797394,
+            "debt_usd_value": 10129414.423556337,
+            "net_usd_value": 11028135.867241057
+          },
+          "asset_dict": {
+            "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": 15271697.24944849,
+            "0x57ab1ec28d129707052df4df418d58a2d46d5f51": -10215686.396371845
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+              "chain": "eth",
+              "name": "Synthetix Network Token",
+              "symbol": "SNX",
+              "display_symbol": null,
+              "optimized_symbol": "SNX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f/fb568c26c7902169572abe8fa966e791.png",
+              "protocol_id": "synthetix",
+              "price": 1.3854092276195078,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1565329008,
+              "amount": 15271697.24944849
+            },
+            {
+              "id": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+              "chain": "eth",
+              "name": "Synth sUSD",
+              "symbol": "sUSD",
+              "display_symbol": null,
+              "optimized_symbol": "sUSD",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57ab1ec28d129707052df4df418d58a2d46d5f51/c699f829018dea55b6b49da32bc9a90d.png",
+              "protocol_id": "synthetix",
+              "price": 0.9915549509383776,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1569466541,
+              "amount": -10215686.396371845
+            }
+          ],
+          "update_at": 1726152602,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "chain": "eth",
+                "name": "Synthetix Network Token",
+                "symbol": "SNX",
+                "display_symbol": null,
+                "optimized_symbol": "SNX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f/fb568c26c7902169572abe8fa966e791.png",
+                "protocol_id": "synthetix",
+                "price": 1.3854092276195078,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1565329008,
+                "amount": 15271382.149170665
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "chain": "eth",
+                "name": "Synthetix Network Token",
+                "symbol": "SNX",
+                "display_symbol": null,
+                "optimized_symbol": "SNX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f/fb568c26c7902169572abe8fa966e791.png",
+                "protocol_id": "synthetix",
+                "price": 1.3854092276195078,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1565329008,
+                "amount": 315.10027782360993
+              }
+            ],
+            "borrow_token_list": [
+              {
+                "id": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+                "chain": "eth",
+                "name": "Synth sUSD",
+                "symbol": "sUSD",
+                "display_symbol": null,
+                "optimized_symbol": "sUSD",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x57ab1ec28d129707052df4df418d58a2d46d5f51/c699f829018dea55b6b49da32bc9a90d.png",
+                "protocol_id": "synthetix",
+                "price": 0.9915549509383776,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1569466541,
+                "amount": 10215686.396371845
+              }
+            ],
+            "health_rate": 2.0887239287588737
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "chain": "eth",
+            "project_id": "synthetix",
+            "adapter_id": "synthetix_lending",
+            "controller": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "index": null,
+            "time_at": 1565329008
+          }
+        }
+      ]
+    }
+  ]
+}

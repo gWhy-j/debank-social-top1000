@@ -1,0 +1,88 @@
+{
+  "user": {
+    "name": "Borderless Capital 1",
+    "address": "0x8c405dd569d597720c04e3c1577ce3841e206ce5",
+    "twitterHandle": "borderless_cap",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "op_sablier",
+      "chain": "op",
+      "name": "Sablier",
+      "site_url": "https://app.sablier.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/op_sablier/3358adccad199e9f2cde0dfabdd9bd2a.png",
+      "has_supported_portfolio": true,
+      "tvl": 14966164.70074334,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 8571.842149184695,
+            "debt_usd_value": 0,
+            "net_usd_value": 8571.842149184695
+          },
+          "asset_dict": {
+            "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b": 19231
+          },
+          "asset_token_list": [
+            {
+              "id": "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b",
+              "chain": "op",
+              "name": "exactly",
+              "symbol": "EXA",
+              "display_symbol": null,
+              "optimized_symbol": "EXA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b/9e1509f0b8052333cd80efc4b7c1a80c.png",
+              "protocol_id": "op_exactly",
+              "price": 0.44573044299228826,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1689972929,
+              "amount": 19231,
+              "claimable_amount": 1355.2941624228395
+            }
+          ],
+          "update_at": 1726139670,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b",
+              "chain": "op",
+              "name": "exactly",
+              "symbol": "EXA",
+              "display_symbol": null,
+              "optimized_symbol": "EXA",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/op_token/logo_url/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b/9e1509f0b8052333cd80efc4b7c1a80c.png",
+              "protocol_id": "op_exactly",
+              "price": 0.44573044299228826,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1689972929,
+              "amount": 19231,
+              "claimable_amount": 1355.2941624228395
+            },
+            "end_at": 1843401600
+          },
+          "proxy_detail": {},
+          "position_index": "95",
+          "pool": {
+            "id": "0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6:receiver",
+            "chain": "op",
+            "project_id": "op_sablier",
+            "adapter_id": "sablier_vesting_v2_receiver",
+            "controller": "0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6",
+            "index": "receiver",
+            "time_at": 1688408899
+          }
+        }
+      ]
+    }
+  ]
+}
