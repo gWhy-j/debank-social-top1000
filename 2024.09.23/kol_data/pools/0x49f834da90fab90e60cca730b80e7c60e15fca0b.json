@@ -1,0 +1,453 @@
+{
+  "user": {
+    "name": "Zee Prime Capital 1",
+    "address": "0x49f834da90fab90e60cca730b80e7c60e15fca0b",
+    "twitterHandle": "ZeePrimeCap",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "arb_gmx",
+      "chain": "arb",
+      "name": "GMX",
+      "site_url": "https://gmx.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/arb_gmx/1a57f390512f4fe108c2b7155dc1fb6d.png",
+      "has_supported_portfolio": true,
+      "tvl": 231697408.0475231,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0,
+            "debt_usd_value": 0,
+            "net_usd_value": 0
+          },
+          "asset_dict": {
+            "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca": 1741.1464125884902
+          },
+          "asset_token_list": [
+            {
+              "id": "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca",
+              "chain": "arb",
+              "name": "Escrowed GMX",
+              "symbol": "esGMX",
+              "display_symbol": null,
+              "optimized_symbol": "esGMX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xf42ae1d54fd613c9bb14810b0588faaa09a426ca/28fd1e74e9f42ad073992bc8359a073a.png",
+              "protocol_id": "arb_gmx",
+              "price": 0,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1626958493,
+              "amount": 1741.1464125884902
+            }
+          ],
+          "update_at": 1727022470,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca",
+                "chain": "arb",
+                "name": "Escrowed GMX",
+                "symbol": "esGMX",
+                "display_symbol": null,
+                "optimized_symbol": "esGMX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xf42ae1d54fd613c9bb14810b0588faaa09a426ca/28fd1e74e9f42ad073992bc8359a073a.png",
+                "protocol_id": "arb_gmx",
+                "price": 0,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1626958493,
+                "amount": 1741.1464125884902
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x908c4d94d34924765f1edc22a1dd098397c59dd4:0xf42ae1d54fd613c9bb14810b0588faaa09a426ca",
+            "chain": "arb",
+            "project_id": "arb_gmx",
+            "adapter_id": "gmx_staking",
+            "controller": "0x908c4d94d34924765f1edc22a1dd098397c59dd4",
+            "index": "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca",
+            "time_at": 1626958565
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 4112.17703621578,
+            "debt_usd_value": 0,
+            "net_usd_value": 4112.17703621578
+          },
+          "asset_dict": {
+            "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a": 0,
+            "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca": 0,
+            "arb": 1.5762714796901949
+          },
+          "asset_token_list": [
+            {
+              "id": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+              "chain": "arb",
+              "name": "GMX",
+              "symbol": "GMX",
+              "display_symbol": null,
+              "optimized_symbol": "GMX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a/b4e362278f64a738b878e5393fa29837.png",
+              "protocol_id": "arb_gmx",
+              "price": 25.52959591263607,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1626958493,
+              "amount": 0
+            },
+            {
+              "id": "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca",
+              "chain": "arb",
+              "name": "Escrowed GMX",
+              "symbol": "esGMX",
+              "display_symbol": null,
+              "optimized_symbol": "esGMX",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xf42ae1d54fd613c9bb14810b0588faaa09a426ca/28fd1e74e9f42ad073992bc8359a073a.png",
+              "protocol_id": "arb_gmx",
+              "price": 0,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1626958493,
+              "amount": 0
+            },
+            {
+              "id": "arb",
+              "chain": "arb",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2608.8,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1622131200,
+              "amount": 1.5762714796901949
+            }
+          ],
+          "update_at": 1727022470,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+                "chain": "arb",
+                "name": "GMX",
+                "symbol": "GMX",
+                "display_symbol": null,
+                "optimized_symbol": "GMX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a/b4e362278f64a738b878e5393fa29837.png",
+                "protocol_id": "arb_gmx",
+                "price": 25.52959591263607,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1626958493,
+                "amount": 0
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca",
+                "chain": "arb",
+                "name": "Escrowed GMX",
+                "symbol": "esGMX",
+                "display_symbol": null,
+                "optimized_symbol": "esGMX",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xf42ae1d54fd613c9bb14810b0588faaa09a426ca/28fd1e74e9f42ad073992bc8359a073a.png",
+                "protocol_id": "arb_gmx",
+                "price": 0,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1626958493,
+                "amount": 0
+              },
+              {
+                "id": "arb",
+                "chain": "arb",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2608.8,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1622131200,
+                "amount": 1.5762714796901949
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x908c4d94d34924765f1edc22a1dd098397c59dd4:0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+            "chain": "arb",
+            "project_id": "arb_gmx",
+            "adapter_id": "gmx_staking",
+            "controller": "0x908c4d94d34924765f1edc22a1dd098397c59dd4",
+            "index": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+            "time_at": 1626958565
+          }
+        }
+      ]
+    },
+    {
+      "id": "base_paragons",
+      "chain": "base",
+      "name": "Paragons DAO",
+      "site_url": "https://paragonsdao.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/paragons/ba48027ccf8929335e01684bb013e166.png",
+      "has_supported_portfolio": true,
+      "tvl": 7481259.533156327,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 279689.4471284246,
+            "debt_usd_value": 0,
+            "net_usd_value": 279689.4471284246
+          },
+          "asset_dict": {
+            "0xeff2a458e464b07088bdb441c21a42ab4b61e07e": 2351345.857322
+          },
+          "asset_token_list": [
+            {
+              "id": "0xeff2a458e464b07088bdb441c21a42ab4b61e07e",
+              "chain": "base",
+              "name": "Paragons DAO Token",
+              "symbol": "PDT",
+              "display_symbol": null,
+              "optimized_symbol": "PDT",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/base_token/logo_url/0xeff2a458e464b07088bdb441c21a42ab4b61e07e/63b1a8fe8fe7c2cdbd177b281f1abbed.png",
+              "protocol_id": "base_paragons",
+              "price": 0.1189486634888196,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1719240549,
+              "amount": 2351345.857322
+            }
+          ],
+          "update_at": 1726975112,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xeff2a458e464b07088bdb441c21a42ab4b61e07e",
+                "chain": "base",
+                "name": "Paragons DAO Token",
+                "symbol": "PDT",
+                "display_symbol": null,
+                "optimized_symbol": "PDT",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/base_token/logo_url/0xeff2a458e464b07088bdb441c21a42ab4b61e07e/63b1a8fe8fe7c2cdbd177b281f1abbed.png",
+                "protocol_id": "base_paragons",
+                "price": 0.1189486634888196,
+                "is_verified": false,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1719240549,
+                "amount": 2351345.857322
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x51e025cb3ee0b99a84f7fb80994198281e29aa3e",
+            "chain": "base",
+            "project_id": "base_paragons",
+            "adapter_id": "paragons_staked2",
+            "controller": "0x51e025cb3ee0b99a84f7fb80994198281e29aa3e",
+            "index": null,
+            "time_at": 1724292761
+          }
+        }
+      ]
+    },
+    {
+      "id": "olympusdao",
+      "chain": "eth",
+      "name": "Olympus",
+      "site_url": "https://app.olympusdao.finance",
+      "logo_url": "https://static.debank.com/image/project/logo_url/olympusdao/7de5c458c4bcae136daa046eb4ef5b49.png",
+      "has_supported_portfolio": true,
+      "tvl": 152854058.5466504,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 77934.13292365822,
+            "debt_usd_value": 0,
+            "net_usd_value": 77934.13292365822
+          },
+          "asset_dict": {
+            "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5": 4922.993480267
+          },
+          "asset_token_list": [
+            {
+              "id": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+              "chain": "eth",
+              "name": "Olympus",
+              "symbol": "OHM",
+              "display_symbol": null,
+              "optimized_symbol": "OHM",
+              "decimals": 9,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png",
+              "protocol_id": "olympusdao",
+              "price": 15.830639068697575,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1639209014,
+              "amount": 4922.993480267
+            }
+          ],
+          "update_at": 1727000136,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                "chain": "eth",
+                "name": "Olympus",
+                "symbol": "OHM",
+                "display_symbol": null,
+                "optimized_symbol": "OHM",
+                "decimals": 9,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png",
+                "protocol_id": "olympusdao",
+                "price": 15.830639068697575,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1639209014,
+                "amount": 4922.993480267
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x04906695d6d12cf5459975d7c3c03356e4ccd460",
+            "chain": "eth",
+            "project_id": "olympusdao",
+            "adapter_id": "olympusdao_staked",
+            "controller": "0x04906695d6d12cf5459975d7c3c03356e4ccd460",
+            "index": null,
+            "time_at": 1639493905
+          }
+        }
+      ]
+    },
+    {
+      "id": "wayfinder",
+      "chain": "eth",
+      "name": "Wayfinder",
+      "site_url": "https://wayfinder.ai/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/wayfinder/34305f665654e887b29cf3aa9f54419b.png",
+      "has_supported_portfolio": true,
+      "tvl": 155289753.70379278,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 597494.3224477456,
+            "debt_usd_value": 0,
+            "net_usd_value": 597494.3224477456
+          },
+          "asset_dict": {
+            "0xb23d80f5fefcddaa212212f028021b41ded428cf": 70954
+          },
+          "asset_token_list": [
+            {
+              "id": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+              "chain": "eth",
+              "name": "Prime",
+              "symbol": "PRIME",
+              "display_symbol": null,
+              "optimized_symbol": "PRIME",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xb23d80f5fefcddaa212212f028021b41ded428cf/c16f90059a8d7c7dfcf41c69af270c08.png",
+              "protocol_id": "wayfinder",
+              "price": 8.420868766352081,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1658083280,
+              "amount": 70954
+            }
+          ],
+          "update_at": 1727000141,
+          "name": "Locked",
+          "detail_types": [
+            "locked"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+                "chain": "eth",
+                "name": "Prime",
+                "symbol": "PRIME",
+                "display_symbol": null,
+                "optimized_symbol": "PRIME",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xb23d80f5fefcddaa212212f028021b41ded428cf/c16f90059a8d7c7dfcf41c69af270c08.png",
+                "protocol_id": "wayfinder",
+                "price": 8.420868766352081,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1658083280,
+                "amount": 70954
+              }
+            ],
+            "unlock_at": 1813236467
+          },
+          "proxy_detail": {},
+          "position_index": "0",
+          "pool": {
+            "id": "0x4a3826bd2e8a31956ad0397a49efde5e0d825238",
+            "chain": "eth",
+            "project_id": "wayfinder",
+            "adapter_id": "wayfinder_locked",
+            "controller": "0x4a3826bd2e8a31956ad0397a49efde5e0d825238",
+            "index": null,
+            "time_at": 1717520267
+          }
+        }
+      ]
+    }
+  ]
+}

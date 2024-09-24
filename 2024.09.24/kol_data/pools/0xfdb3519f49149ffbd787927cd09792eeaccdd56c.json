@@ -1,0 +1,240 @@
+{
+  "user": {
+    "name": "Spark Digital Capital",
+    "address": "0xfdb3519f49149ffbd787927cd09792eeaccdd56c",
+    "twitterHandle": "capital_spark",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "blastbridge",
+      "chain": "eth",
+      "name": "Blast Bridge",
+      "site_url": "https://blast.io/en/bridge",
+      "logo_url": "https://static.debank.com/image/project/logo_url/blastbridge/c0e1eb5f4051bd62ca904cf2e3282f47.png",
+      "has_supported_portfolio": true,
+      "tvl": 3795738.401487659,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 269.02548325542847,
+            "debt_usd_value": 0,
+            "net_usd_value": 269.02548325542847
+          },
+          "asset_dict": {
+            "eth": 0.10281765668860225
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2616.53,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 0.10281765668860225
+            }
+          ],
+          "update_at": 1727130672,
+          "name": "Deposit",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2616.53,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 0.10281765668860225
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x5f6ae08b8aeb7078cf2f96afb089d7c9f51da47d",
+            "chain": "eth",
+            "project_id": "blastbridge",
+            "adapter_id": "blast_deposit",
+            "controller": "0x5f6ae08b8aeb7078cf2f96afb089d7c9f51da47d",
+            "index": null,
+            "time_at": 1700359187
+          }
+        }
+      ]
+    },
+    {
+      "id": "bsc_sablier",
+      "chain": "bsc",
+      "name": "Sablier",
+      "site_url": "https://app.sablier.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/bsc_sablier/3358adccad199e9f2cde0dfabdd9bd2a.png",
+      "has_supported_portfolio": true,
+      "tvl": 4218338.723256732,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1850.2984443975079,
+            "debt_usd_value": 0,
+            "net_usd_value": 1850.2984443975079
+          },
+          "asset_dict": {
+            "0x78353861e96a4a3d757bc7ef6c0dd4f667e6274b": 250000000
+          },
+          "asset_token_list": [
+            {
+              "id": "0x78353861e96a4a3d757bc7ef6c0dd4f667e6274b",
+              "chain": "bsc",
+              "name": "PECLand",
+              "symbol": "$PECL",
+              "display_symbol": null,
+              "optimized_symbol": "$PECL",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0x78353861e96a4a3d757bc7ef6c0dd4f667e6274b/7201b1e25f82b2b74f495df64ee94883.png",
+              "protocol_id": "",
+              "price": 0.0000074011937775900314,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1705491406,
+              "amount": 250000000,
+              "claimable_amount": 250000000
+            }
+          ],
+          "update_at": 1727134658,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x78353861e96a4a3d757bc7ef6c0dd4f667e6274b",
+              "chain": "bsc",
+              "name": "PECLand",
+              "symbol": "$PECL",
+              "display_symbol": null,
+              "optimized_symbol": "$PECL",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0x78353861e96a4a3d757bc7ef6c0dd4f667e6274b/7201b1e25f82b2b74f495df64ee94883.png",
+              "protocol_id": "",
+              "price": 0.0000074011937775900314,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1705491406,
+              "amount": 250000000,
+              "claimable_amount": 250000000
+            },
+            "end_at": 1724562600
+          },
+          "proxy_detail": {},
+          "position_index": "118",
+          "pool": {
+            "id": "0x14c35e126d75234a90c9fb185bf8ad3edb6a90d2:receiver",
+            "chain": "bsc",
+            "project_id": "bsc_sablier",
+            "adapter_id": "sablier_vesting_v2_receiver",
+            "controller": "0x14c35e126d75234a90c9fb185bf8ad3edb6a90d2",
+            "index": "receiver",
+            "time_at": 1702996049
+          }
+        }
+      ]
+    },
+    {
+      "id": "matic_bullieverse",
+      "chain": "matic",
+      "name": "Bullieverse",
+      "site_url": "https://bullieverse.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/matic_bullieverse/65cf35da3a7ae3ee27a4b8f7d8020dc1.png",
+      "has_supported_portfolio": true,
+      "tvl": 794645.2215405822,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 450.8128563674401,
+            "debt_usd_value": 0,
+            "net_usd_value": 450.8128563674401
+          },
+          "asset_dict": {
+            "0x9f95e17b2668afe01f8fbd157068b0a4405cc08d": 236388.88888888888
+          },
+          "asset_token_list": [
+            {
+              "id": "0x9f95e17b2668afe01f8fbd157068b0a4405cc08d",
+              "chain": "matic",
+              "name": "Bullieverse",
+              "symbol": "BULL",
+              "display_symbol": "BULL (Bullieverse)",
+              "optimized_symbol": "BULL (Bullieverse)",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x9f95e17b2668afe01f8fbd157068b0a4405cc08d/2e6a1bb0c0972ca9174e1e4b766d962c.png",
+              "protocol_id": "matic_bullieverse",
+              "price": 0.0019070814135402872,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1645215049,
+              "amount": 236388.88888888888,
+              "claimable_amount": 236388.88888888888
+            }
+          ],
+          "update_at": 1727049045,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x9f95e17b2668afe01f8fbd157068b0a4405cc08d",
+              "chain": "matic",
+              "name": "Bullieverse",
+              "symbol": "BULL",
+              "display_symbol": "BULL (Bullieverse)",
+              "optimized_symbol": "BULL (Bullieverse)",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x9f95e17b2668afe01f8fbd157068b0a4405cc08d/2e6a1bb0c0972ca9174e1e4b766d962c.png",
+              "protocol_id": "matic_bullieverse",
+              "price": 0.0019070814135402872,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1645215049,
+              "amount": 236388.88888888888,
+              "claimable_amount": 236388.88888888888
+            }
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x74a67cc06beb2b76d204cfaecf42b04769e996fe",
+            "chain": "matic",
+            "project_id": "matic_bullieverse",
+            "adapter_id": "vendettagames_vesting",
+            "controller": "0x74a67cc06beb2b76d204cfaecf42b04769e996fe",
+            "index": null,
+            "time_at": 1646769180
+          }
+        }
+      ]
+    }
+  ]
+}

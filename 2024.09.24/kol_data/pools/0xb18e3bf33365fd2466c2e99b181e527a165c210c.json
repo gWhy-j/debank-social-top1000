@@ -1,0 +1,86 @@
+{
+  "user": {
+    "name": "Kronos Research 3",
+    "address": "0xb18e3bf33365fd2466c2e99b181e527a165c210c",
+    "twitterHandle": "KronosResearch",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "cowswap",
+      "chain": "eth",
+      "name": "CoW Swap",
+      "site_url": "https://swap.cow.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/cowswap/1c5286f08b8b40ace5739dcd42ad0ce5.png",
+      "has_supported_portfolio": true,
+      "tvl": 79899009.924822,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 105035.93494291556,
+            "debt_usd_value": 0,
+            "net_usd_value": 105035.93494291556
+          },
+          "asset_dict": {
+            "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab": 354281.5254222966
+          },
+          "asset_token_list": [
+            {
+              "id": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+              "chain": "eth",
+              "name": "CoW Protocol Token",
+              "symbol": "COW",
+              "display_symbol": null,
+              "optimized_symbol": "COW",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab/a8237b75f62355826b3b3bfeff630ff9.png",
+              "protocol_id": "cowswap",
+              "price": 0.29647590237090343,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1644608664,
+              "amount": 354281.5254222966,
+              "claimable_amount": 123508.82196364742
+            }
+          ],
+          "update_at": 1727144525,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+              "chain": "eth",
+              "name": "CoW Protocol Token",
+              "symbol": "COW",
+              "display_symbol": null,
+              "optimized_symbol": "COW",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab/a8237b75f62355826b3b3bfeff630ff9.png",
+              "protocol_id": "cowswap",
+              "price": 0.29647590237090343,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1644608664,
+              "amount": 354281.5254222966,
+              "claimable_amount": 123508.82196364742
+            }
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+            "chain": "eth",
+            "project_id": "cowswap",
+            "adapter_id": "cowswap_vesting",
+            "controller": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+            "index": null,
+            "time_at": 1644609915
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "user": {
+    "name": "AU21 Capital 1",
+    "address": "0xfb2e1227a48c100073e476e92001239afd09598e",
+    "twitterHandle": "AU21Capital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "aave3",
+      "chain": "eth",
+      "name": "Aave V3",
+      "site_url": "https://app.aave.com",
+      "logo_url": "https://static.debank.com/image/project/logo_url/aave3/07bc2403c8c357d2317db15d64872314.png",
+      "has_supported_portfolio": true,
+      "tvl": 9863570208.12804,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 12002198.032027192,
+            "debt_usd_value": 0,
+            "net_usd_value": 12002198.032027192
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 2464128.084241,
+            "0xdac17f958d2ee523a2206206994597c13d831ec7": 9539540.627647
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 1.000100010001,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 2464128.084241
+            },
+            {
+              "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+              "chain": "eth",
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "display_symbol": "",
+              "optimized_symbol": "USDT",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+              "protocol_id": "",
+              "price": 0.99982,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1511829681,
+              "amount": 9539540.627647
+            }
+          ],
+          "update_at": 1727098654,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 1.000100010001,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 2464128.084241
+              },
+              {
+                "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "chain": "eth",
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "display_symbol": "",
+                "optimized_symbol": "USDT",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+                "protocol_id": "",
+                "price": 0.99982,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1511829681,
+                "amount": 9539540.627647
+              }
+            ],
+            "health_rate": 1.157920892373162e+59
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "chain": "eth",
+            "project_id": "aave3",
+            "adapter_id": "aave3_proxy_lending",
+            "controller": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            "index": null,
+            "time_at": 1672325495
+          }
+        }
+      ]
+    },
+    {
+      "id": "eigenlayer",
+      "chain": "eth",
+      "name": "EigenLayer",
+      "site_url": "https://app.eigenlayer.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+      "has_supported_portfolio": true,
+      "tvl": 3951495478.5445933,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2656774.640503964,
+            "debt_usd_value": 0,
+            "net_usd_value": 2656774.640503964
+          },
+          "asset_dict": {
+            "0xae7ab96520de3a18e5e111b5eaab095312d7fe84": 1014.6900803721492
+          },
+          "asset_token_list": [
+            {
+              "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+              "chain": "eth",
+              "name": "Liquid staked Ether 2.0",
+              "symbol": "stETH",
+              "display_symbol": null,
+              "optimized_symbol": "stETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/e4f2c8b4d0b254fe8e04880ff76d872e.png",
+              "protocol_id": "lido",
+              "price": 2618.3114350832734,
+              "is_verified": true,
+              "is_core": false,
+              "is_wallet": false,
+              "time_at": 1608242396,
+              "amount": 1014.6900803721492
+            }
+          ],
+          "update_at": 1727119577,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+                "chain": "eth",
+                "name": "Liquid staked Ether 2.0",
+                "symbol": "stETH",
+                "display_symbol": null,
+                "optimized_symbol": "stETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/e4f2c8b4d0b254fe8e04880ff76d872e.png",
+                "protocol_id": "lido",
+                "price": 2618.3114350832734,
+                "is_verified": true,
+                "is_core": false,
+                "is_wallet": false,
+                "time_at": 1608242396,
+                "amount": 1014.6900803721492
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x93c4b944d05dfe6df7645a86cd2206016c51564d",
+            "chain": "eth",
+            "project_id": "eigenlayer",
+            "adapter_id": "eigenlayer_yield",
+            "controller": "0x93c4b944d05dfe6df7645a86cd2206016c51564d",
+            "index": null,
+            "time_at": 1686349019
+          }
+        }
+      ]
+    },
+    {
+      "id": "etherfi",
+      "chain": "eth",
+      "name": "ether.fi",
+      "site_url": "https://www.ether.fi/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/etherfi/6c3ea6e8f02322fa9b417e0726978c41.png",
+      "has_supported_portfolio": true,
+      "tvl": 6086353981.245027,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 5725969.348839749,
+            "debt_usd_value": 0,
+            "net_usd_value": 5725969.348839749
+          },
+          "asset_dict": {
+            "eth": 2188.3828386602668
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2616.53,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 2188.3828386602668
+            }
+          ],
+          "update_at": 1727119572,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2616.53,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 2188.3828386602668
+              }
+            ],
+            "description": "eETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+            "chain": "eth",
+            "project_id": "etherfi",
+            "adapter_id": "etherfi_staked2",
+            "controller": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+            "index": null,
+            "time_at": 1689005015
+          }
+        }
+      ]
+    },
+    {
+      "id": "lido",
+      "chain": "eth",
+      "name": "LIDO",
+      "site_url": "https://stake.lido.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/lido/081388ebc44fa042561749bd5338d49e.png",
+      "has_supported_portfolio": true,
+      "tvl": 25256521272.548798,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 681.419521775236,
+            "debt_usd_value": 0,
+            "net_usd_value": 681.419521775236
+          },
+          "asset_dict": {
+            "eth": 0.26042870587198924
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2616.53,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 0.26042870587198924
+            }
+          ],
+          "update_at": 1727119568,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2616.53,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 0.26042870587198924
+              }
+            ],
+            "description": "stETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "chain": "eth",
+            "project_id": "lido",
+            "adapter_id": "lido_staked",
+            "controller": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "index": null,
+            "time_at": 1608242396
+          }
+        }
+      ]
+    },
+    {
+      "id": "polygon_staking",
+      "chain": "eth",
+      "name": "Polygon Staking",
+      "site_url": "https://staking.polygon.technology",
+      "logo_url": "https://static.debank.com/image/project/logo_url/polygon_staking/8798d4e070efcfe1cd805a80624ff9c7.png",
+      "has_supported_portfolio": true,
+      "tvl": 1316697152.1562507,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 204025.89116776446,
+            "debt_usd_value": 0,
+            "net_usd_value": 204025.89116776446
+          },
+          "asset_dict": {
+            "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": 509791.3959195479
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+              "chain": "eth",
+              "name": "Matic Token",
+              "symbol": "MATIC",
+              "display_symbol": null,
+              "optimized_symbol": "MATIC",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+              "protocol_id": "",
+              "price": 0.40021446576152603,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1555778052,
+              "amount": 509791.3959195479
+            }
+          ],
+          "update_at": 1727119561,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+                "chain": "eth",
+                "name": "Matic Token",
+                "symbol": "MATIC",
+                "display_symbol": null,
+                "optimized_symbol": "MATIC",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+                "protocol_id": "",
+                "price": 0.40021446576152603,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1555778052,
+                "amount": 499688
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+                "chain": "eth",
+                "name": "Matic Token",
+                "symbol": "MATIC",
+                "display_symbol": null,
+                "optimized_symbol": "MATIC",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+                "protocol_id": "",
+                "price": 0.40021446576152603,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1555778052,
+                "amount": 10103.39591954786
+              }
+            ],
+            "description": "Bware Labs"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x5a10de50160126a5f936506bd342c541ac44e943",
+            "chain": "eth",
+            "project_id": "polygon_staking",
+            "adapter_id": "polygon_staked",
+            "controller": "0x5a10de50160126a5f936506bd342c541ac44e943",
+            "index": null,
+            "time_at": 1618223892
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 204153.33726809185,
+            "debt_usd_value": 0,
+            "net_usd_value": 204153.33726809185
+          },
+          "asset_dict": {
+            "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": 510109.84043175436
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+              "chain": "eth",
+              "name": "Matic Token",
+              "symbol": "MATIC",
+              "display_symbol": null,
+              "optimized_symbol": "MATIC",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+              "protocol_id": "",
+              "price": 0.40021446576152603,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1555778052,
+              "amount": 510109.84043175436
+            }
+          ],
+          "update_at": 1727119561,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+                "chain": "eth",
+                "name": "Matic Token",
+                "symbol": "MATIC",
+                "display_symbol": null,
+                "optimized_symbol": "MATIC",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+                "protocol_id": "",
+                "price": 0.40021446576152603,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1555778052,
+                "amount": 500000
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+                "chain": "eth",
+                "name": "Matic Token",
+                "symbol": "MATIC",
+                "display_symbol": null,
+                "optimized_symbol": "MATIC",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+                "protocol_id": "",
+                "price": 0.40021446576152603,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1555778052,
+                "amount": 10109.840431754363
+              }
+            ],
+            "description": "HashKey Cloud"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xfbd457afad934a1bd9b18285a4d4c108b3f9673c",
+            "chain": "eth",
+            "project_id": "polygon_staking",
+            "adapter_id": "polygon_staked",
+            "controller": "0xfbd457afad934a1bd9b18285a4d4c108b3f9673c",
+            "index": null,
+            "time_at": 1601362302
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 204135.03222707467,
+            "debt_usd_value": 0,
+            "net_usd_value": 204135.03222707467
+          },
+          "asset_dict": {
+            "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": 510064.10235234146
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+              "chain": "eth",
+              "name": "Matic Token",
+              "symbol": "MATIC",
+              "display_symbol": null,
+              "optimized_symbol": "MATIC",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+              "protocol_id": "",
+              "price": 0.40021446576152603,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1555778052,
+              "amount": 510064.10235234146
+            }
+          ],
+          "update_at": 1727119561,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+                "chain": "eth",
+                "name": "Matic Token",
+                "symbol": "MATIC",
+                "display_symbol": null,
+                "optimized_symbol": "MATIC",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+                "protocol_id": "",
+                "price": 0.40021446576152603,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1555778052,
+                "amount": 500000
+              }
+            ],
+            "reward_token_list": [
+              {
+                "id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+                "chain": "eth",
+                "name": "Matic Token",
+                "symbol": "MATIC",
+                "display_symbol": null,
+                "optimized_symbol": "MATIC",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0/20aac20baa9069bd39342edd8c5cc801.png",
+                "protocol_id": "",
+                "price": 0.40021446576152603,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1555778052,
+                "amount": 10064.102352341475
+              }
+            ],
+            "description": "stake.new"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xfceeadc436b28b686fa376671a7739e509fae4ab",
+            "chain": "eth",
+            "project_id": "polygon_staking",
+            "adapter_id": "polygon_staked",
+            "controller": "0xfceeadc436b28b686fa376671a7739e509fae4ab",
+            "index": null,
+            "time_at": 1675687151
+          }
+        }
+      ]
+    },
+    {
+      "id": "puffer",
+      "chain": "eth",
+      "name": "Puffer Finance",
+      "site_url": "https://www.puffer.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/puffer/4b532754bce22c0ba7fcaa3c1ac37d31.png",
+      "has_supported_portfolio": true,
+      "tvl": 1244589121.1912818,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 5305.388588708419,
+            "debt_usd_value": 0,
+            "net_usd_value": 5305.388588708419
+          },
+          "asset_dict": {
+            "eth": 2.027642942640986
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2616.53,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 2.027642942640986
+            }
+          ],
+          "update_at": 1727119566,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2616.53,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 2.027642942640986
+              }
+            ],
+            "description": "pufETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xd9a442856c234a39a81a089c06451ebaa4306a72",
+            "chain": "eth",
+            "project_id": "puffer",
+            "adapter_id": "token_parse_staked_adapter",
+            "controller": "0xd9a442856c234a39a81a089c06451ebaa4306a72",
+            "index": null,
+            "time_at": 1706723327
+          }
+        }
+      ]
+    },
+    {
+      "id": "renzo",
+      "chain": "eth",
+      "name": "Renzo",
+      "site_url": "https://app.renzoprotocol.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/renzo/58505416482aa4d40f126c194c174b43.png",
+      "has_supported_portfolio": true,
+      "tvl": 681359297.7732462,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 5293.88402778929,
+            "debt_usd_value": 0,
+            "net_usd_value": 5293.88402778929
+          },
+          "asset_dict": {
+            "eth": 2.0232460655101563
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2616.53,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 2.0232460655101563
+            }
+          ],
+          "update_at": 1727119554,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2616.53,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 2.0232460655101563
+              }
+            ],
+            "description": "ezETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+            "chain": "eth",
+            "project_id": "renzo",
+            "adapter_id": "token_parse_staked_adapter",
+            "controller": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+            "index": null,
+            "time_at": 1701811163
+          }
+        }
+      ]
+    }
+  ]
+}
