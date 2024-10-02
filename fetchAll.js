@@ -29,28 +29,6 @@ async function protocolFetch(user) {
   }
 }
 
-// async function walletFetch(userId) {
-//   try {
-//     const res = await fetch(`https://pro-openapi.debank.com/v1/user/all_token_list?id=${userId}&is_all=false`, {
-//       method: "GET",
-//       headers: {
-//         accept: "application/json",
-//         AccessKey: process.env.DEBANK_KEY,
-//       },
-//     });
-
-//     const result = await res.json();
-
-//     if (!Array.isArray(result)) {
-//       console.log(result);
-//       throw new Error("Token Fetch Error");
-//     }
-//     fs.writeFileSync(`${path}/kol_data/tokens/${userId}.json`, JSON.stringify(result, null, 2));
-//   } catch (err) {
-//     console.log(err);
-//   }
-// }
-
 async function updateProtocolAndToken(path) {
   // JSON 파일 읽기
   const rawData = fs.readFileSync(`${path}/defiWhizList.json`, "utf8");

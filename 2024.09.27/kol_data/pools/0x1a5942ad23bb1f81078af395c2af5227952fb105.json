@@ -1,0 +1,162 @@
+{
+  "user": {
+    "name": "NGC Ventures 2",
+    "address": "0x1a5942ad23bb1f81078af395c2af5227952fb105",
+    "twitterHandle": "NGC_Ventures",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "bb_bouncebit",
+      "chain": "bb",
+      "name": "BounceBit",
+      "site_url": "https://portal.bouncebit.io/stake",
+      "logo_url": "https://static.debank.com/image/project/logo_url/bb_bouncebit/920c143cac903e02561459f32164cd9e.png",
+      "has_supported_portfolio": true,
+      "tvl": 245740715.24123216,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 58555.86253278528,
+            "debt_usd_value": 0,
+            "net_usd_value": 58555.86253278528
+          },
+          "asset_dict": {
+            "bb": 145191.82378573093
+          },
+          "asset_token_list": [
+            {
+              "id": "bb",
+              "chain": "bb",
+              "name": "BB",
+              "symbol": "BB",
+              "display_symbol": null,
+              "optimized_symbol": "BB",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/bb_token/logo_url/bb/da74a4980f24d870cb43ccd763e0c966.png",
+              "protocol_id": "",
+              "price": 0.4033,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": null,
+              "amount": 145191.82378573093
+            }
+          ],
+          "update_at": 1727366457,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "bb",
+                "chain": "bb",
+                "name": "BB",
+                "symbol": "BB",
+                "display_symbol": null,
+                "optimized_symbol": "BB",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/bb_token/logo_url/bb/da74a4980f24d870cb43ccd763e0c966.png",
+                "protocol_id": "",
+                "price": 0.4033,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": null,
+                "amount": 145191.82378573093
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x22aac17e571d6651880d057e310703ff4c7c3483",
+            "chain": "bb",
+            "project_id": "bb_bouncebit",
+            "adapter_id": "bouncebit_staked",
+            "controller": "0x22aac17e571d6651880d057e310703ff4c7c3483",
+            "index": null,
+            "time_at": 1713268824
+          }
+        }
+      ]
+    },
+    {
+      "id": "element",
+      "chain": "eth",
+      "name": "Element",
+      "site_url": "https://app.element.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/element/762a6a6f050a158424db128eac88e755.png",
+      "has_supported_portfolio": true,
+      "tvl": 1408973.432033472,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.00040109333664994066,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.00040109333664994066
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 0.00040113344598360565
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 0.9999000099990001,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 0.00040113344598360565
+            }
+          ],
+          "update_at": 1727366457,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 0.9999000099990001,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 0.00040113344598360565
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x787546bf2c05e3e19e2b6bde57a203da7f682eff",
+            "chain": "eth",
+            "project_id": "element",
+            "adapter_id": "element_principal_liquidity",
+            "controller": "0x787546bf2c05e3e19e2b6bde57a203da7f682eff",
+            "index": null,
+            "time_at": 1627936276
+          }
+        }
+      ]
+    }
+  ]
+}

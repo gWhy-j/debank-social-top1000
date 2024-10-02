@@ -1,0 +1,304 @@
+{
+  "user": {
+    "name": "Draper Dragon 1",
+    "address": "0x92d028646a08af3d23195821762634e0754b2e7a",
+    "twitterHandle": "DraperDragon",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "bsc_galxe",
+      "chain": "bsc",
+      "name": "Galxe",
+      "site_url": "https://galxe.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/bsc_galxe/90baa6ae2cb97b4791f02fe66abec4b2.png",
+      "has_supported_portfolio": true,
+      "tvl": 3602899.574205406,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2577.322638,
+            "debt_usd_value": 0,
+            "net_usd_value": 2577.322638
+          },
+          "asset_dict": {
+            "0x9c7beba8f6ef6643abd725e45a4e8387ef260649": 62389.8
+          },
+          "asset_token_list": [
+            {
+              "id": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+              "chain": "bsc",
+              "name": "Gravity",
+              "symbol": "G",
+              "display_symbol": null,
+              "optimized_symbol": "G",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0x9c7beba8f6ef6643abd725e45a4e8387ef260649/5fc667887139ebf335cb563322044cf8.png",
+              "protocol_id": "bsc_galxe",
+              "price": 0.04131,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1715571801,
+              "amount": 62389.8
+            }
+          ],
+          "update_at": 1727374023,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+                "chain": "bsc",
+                "name": "Gravity",
+                "symbol": "G",
+                "display_symbol": null,
+                "optimized_symbol": "G",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0x9c7beba8f6ef6643abd725e45a4e8387ef260649/5fc667887139ebf335cb563322044cf8.png",
+                "protocol_id": "bsc_galxe",
+                "price": 0.04131,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1715571801,
+                "amount": 62389.8
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x7bbe09e066077b3888432eedec958f64b2e47239",
+            "chain": "bsc",
+            "project_id": "bsc_galxe",
+            "adapter_id": "galxe_staked",
+            "controller": "0x7bbe09e066077b3888432eedec958f64b2e47239",
+            "index": null,
+            "time_at": 1713946691
+          }
+        }
+      ]
+    },
+    {
+      "id": "eigenlayer",
+      "chain": "eth",
+      "name": "EigenLayer",
+      "site_url": "https://app.eigenlayer.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+      "has_supported_portfolio": true,
+      "tvl": 3953367656.145657,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0,
+            "debt_usd_value": 0,
+            "net_usd_value": 0
+          },
+          "asset_dict": {
+            "0xec53bf9167f50cdeb3ae105f56099aaab9061f83": 1027.939175632933
+          },
+          "asset_token_list": [
+            {
+              "id": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+              "chain": "eth",
+              "name": "Eigen",
+              "symbol": "EIGEN",
+              "display_symbol": null,
+              "optimized_symbol": "EIGEN",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+              "protocol_id": "eigenlayer",
+              "price": 0,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1697499563,
+              "amount": 1027.939175632933
+            }
+          ],
+          "update_at": 1727371547,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+                "chain": "eth",
+                "name": "Eigen",
+                "symbol": "EIGEN",
+                "display_symbol": null,
+                "optimized_symbol": "EIGEN",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+                "protocol_id": "eigenlayer",
+                "price": 0,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1697499563,
+                "amount": 1027.939175632933
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xacb55c530acdb2849e6d4f36992cd8c9d50ed8f7",
+            "chain": "eth",
+            "project_id": "eigenlayer",
+            "adapter_id": "eigenlayer_yield",
+            "controller": "0xacb55c530acdb2849e6d4f36992cd8c9d50ed8f7",
+            "index": null,
+            "time_at": 1713414611
+          }
+        }
+      ]
+    },
+    {
+      "id": "etherfi",
+      "chain": "eth",
+      "name": "ether.fi",
+      "site_url": "https://www.ether.fi/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/etherfi/6c3ea6e8f02322fa9b417e0726978c41.png",
+      "has_supported_portfolio": true,
+      "tvl": 6094647266.110372,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2.63493e-15,
+            "debt_usd_value": 0,
+            "net_usd_value": 2.63493e-15
+          },
+          "asset_dict": {
+            "eth": 1e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2634.93,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 1e-18
+            }
+          ],
+          "update_at": 1727353569,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2634.93,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 1e-18
+              }
+            ],
+            "description": "eETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+            "chain": "eth",
+            "project_id": "etherfi",
+            "adapter_id": "etherfi_staked2",
+            "controller": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+            "index": null,
+            "time_at": 1689005015
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 445260.6727724441,
+            "debt_usd_value": 0,
+            "net_usd_value": 445260.6727724441
+          },
+          "asset_dict": {
+            "eth": 168.98387159144423
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2634.93,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 168.98387159144423
+            }
+          ],
+          "update_at": 1727353569,
+          "name": "Deposit",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2634.93,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 168.98387159144423
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x7d5706f6ef3f89b3951e23e557cdfbc3239d4e2c",
+            "chain": "eth",
+            "project_id": "etherfi",
+            "adapter_id": "etherfi_deposit",
+            "controller": "0x7d5706f6ef3f89b3951e23e557cdfbc3239d4e2c",
+            "index": null,
+            "time_at": 1699344455
+          }
+        }
+      ]
+    }
+  ]
+}

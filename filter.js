@@ -23,9 +23,12 @@ function filter(pathname) {
               user_name: whizData.user.name,
               chain: protocol.chain,
               protocol_name: protocol.name,
+              project_id: pool.pool.project_id,
               site_url: protocol.site_url,
               deposited_amount: pool.stats.asset_usd_value.toFixed(0),
               deposited_assets: pool.detail.supply_token_list?.map((token) => token.symbol).join(" ") ?? "",
+              deposited_asset_addresses: pool.detail.supply_token_list?.map((token) => (token.id.slice(0, 2) === "0x" ? token.id : "0x0000000000000000000000000000000000000000")).join(" ") ?? "",
+              description: pool.detail.description ?? "",
               pool_type: pool.name,
               pool_key: `${protocol.chain}-${pool.pool.controller}-${pool.pool.index}`,
               pool_controller: pool.pool.controller,
@@ -38,13 +41,28 @@ function filter(pathname) {
   });
 
   // CSV 파일 생성을 위한 헤더
-  const headers = ["address", "user_name", "network", "protocol_name", "deposited_amount", "deposited_assets", "pool_type", "site_url", "pool_key", "pool_controller", "pool_index"];
+  const headers = ["address", "user_name", "network", "protocol_name", "project_id", "deposited_amount", "deposited_assets", "deposited_asset_addresses", "pool_type", "description", "site_url", "pool_key", "pool_controller", "pool_index"];
 
   // CSV 데이터 생성
   let csvContent = headers.join(",") + "\n";
 
   poolData.forEach((item) => {
-    const row = [item.address, item.user_name, item.chain, item.protocol_name, item.deposited_amount, item.deposited_assets, item.pool_type, item.site_url, item.pool_key, item.pool_controller, item.pool_index];
+    const row = [
+      item.address,
+      item.user_name,
+      item.chain,
+      item.protocol_name,
+      item.project_id,
+      item.deposited_amount,
+      item.deposited_assets,
+      item.deposited_asset_addresses,
+      item.pool_type,
+      item.description,
+      item.site_url,
+      item.pool_key,
+      item.pool_controller,
+      item.pool_index,
+    ];
     csvContent += row.join(",") + "\n";
   });
 

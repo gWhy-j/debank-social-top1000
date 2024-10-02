@@ -1,0 +1,545 @@
+{
+  "user": {
+    "name": "FBG Capital 1",
+    "address": "0x9a63a9d39fd818f8830f8ad82a3a45fcd3b51a96",
+    "twitterHandle": "FBGCapital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "arb_subsquid",
+      "chain": "arb",
+      "name": "Subsquid",
+      "site_url": "https://subsquid.io",
+      "logo_url": "https://static.debank.com/image/project/logo_url/subsquid/0a1fc6ca7e3859c143754f37df551519.png",
+      "has_supported_portfolio": true,
+      "tvl": 5775439.790811605,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 18401.001268264838,
+            "debt_usd_value": 0,
+            "net_usd_value": 18401.001268264838
+          },
+          "asset_dict": {
+            "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1": 471095.78259766614
+          },
+          "asset_token_list": [
+            {
+              "id": "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1",
+              "chain": "arb",
+              "name": "Subsquid",
+              "symbol": "SQD",
+              "display_symbol": null,
+              "optimized_symbol": "SQD",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1/823b1dbc63aeaf7ccb0ea61ec917d655.png",
+              "protocol_id": "arb_subsquid",
+              "price": 0.03906,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1711385745,
+              "amount": 471095.78259766614,
+              "claimable_amount": 12126.79810375444
+            }
+          ],
+          "update_at": 1727765677,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1",
+              "chain": "arb",
+              "name": "Subsquid",
+              "symbol": "SQD",
+              "display_symbol": null,
+              "optimized_symbol": "SQD",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1/823b1dbc63aeaf7ccb0ea61ec917d655.png",
+              "protocol_id": "arb_subsquid",
+              "price": 0.03906,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1711385745,
+              "amount": 471095.78259766614,
+              "claimable_amount": 12126.79810375444
+            },
+            "end_at": 1742892945
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc884ad13fa504631fe7ad597282fc3a01be2fa65",
+            "chain": "arb",
+            "project_id": "arb_subsquid",
+            "adapter_id": "subsquid_vesting",
+            "controller": "0xc884ad13fa504631fe7ad597282fc3a01be2fa65",
+            "index": null,
+            "time_at": 1715616532
+          }
+        }
+      ]
+    },
+    {
+      "id": "eigenlayer",
+      "chain": "eth",
+      "name": "EigenLayer",
+      "site_url": "https://app.eigenlayer.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/eigenlayer/60961d60d58c7619cf845ff06b2236af.png",
+      "has_supported_portfolio": true,
+      "tvl": 4028806809.6232824,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 71276.89281956917,
+            "debt_usd_value": 0,
+            "net_usd_value": 71276.89281956917
+          },
+          "asset_dict": {
+            "eth": 28.636528762151034
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2489.02,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 28.636528762151034
+            }
+          ],
+          "update_at": 1727812673,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2489.02,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 28.636528762151034
+              }
+            ],
+            "description": "swETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+            "chain": "eth",
+            "project_id": "eigenlayer",
+            "adapter_id": "eigenlayer_yield",
+            "controller": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+            "index": null,
+            "time_at": 1701791243
+          }
+        }
+      ]
+    },
+    {
+      "id": "etherfi",
+      "chain": "eth",
+      "name": "ether.fi",
+      "site_url": "https://www.ether.fi/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/etherfi/6c3ea6e8f02322fa9b417e0726978c41.png",
+      "has_supported_portfolio": true,
+      "tvl": 5807771455.9275465,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 50681.47200258927,
+            "debt_usd_value": 0,
+            "net_usd_value": 50681.47200258927
+          },
+          "asset_dict": {
+            "eth": 20.362018787550628
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2489.02,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 20.362018787550628
+            }
+          ],
+          "update_at": 1727812667,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2489.02,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 20.362018787550628
+              }
+            ],
+            "description": "eETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+            "chain": "eth",
+            "project_id": "etherfi",
+            "adapter_id": "etherfi_staked2",
+            "controller": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+            "index": null,
+            "time_at": 1689005015
+          }
+        }
+      ]
+    },
+    {
+      "id": "paraspace",
+      "chain": "eth",
+      "name": "Para Space",
+      "site_url": "https://app.para.space/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/paraspace/56e1a83128eca8f1e9a65bd9acebe3f4.png",
+      "has_supported_portfolio": true,
+      "tvl": 15799.321074582407,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.00007390604196266722,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.00007390604196266722
+          },
+          "asset_dict": {
+            "0x4d224452801aced8b2f0aebe155379bb5d594381": 0.000105923760156992
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+              "chain": "eth",
+              "name": "ApeCoin",
+              "symbol": "APE",
+              "display_symbol": null,
+              "optimized_symbol": "APE",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4d224452801aced8b2f0aebe155379bb5d594381/2357165eac1453c46f526704b51a801b.png",
+              "protocol_id": "apestake",
+              "price": 0.6977286479740655,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1644845135,
+              "amount": 0.000105923760156992
+            }
+          ],
+          "update_at": 1727769503,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+                "chain": "eth",
+                "name": "ApeCoin",
+                "symbol": "APE",
+                "display_symbol": null,
+                "optimized_symbol": "APE",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4d224452801aced8b2f0aebe155379bb5d594381/2357165eac1453c46f526704b51a801b.png",
+                "protocol_id": "apestake",
+                "price": 0.6977286479740655,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1644845135,
+                "amount": 0.000105923760156992
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xc5c9fb6223a989208df27dcee33fc59ff5c26fff",
+            "chain": "eth",
+            "project_id": "paraspace",
+            "adapter_id": "parasapce_yield",
+            "controller": "0xc5c9fb6223a989208df27dcee33fc59ff5c26fff",
+            "index": null,
+            "time_at": 1672035491
+          }
+        }
+      ]
+    },
+    {
+      "id": "parax",
+      "chain": "eth",
+      "name": "Parallel ",
+      "site_url": "https://app.parallel.fi",
+      "logo_url": "https://static.debank.com/image/project/logo_url/parax/031d6f5a9510709c304d4e02823b7a13.png",
+      "has_supported_portfolio": true,
+      "tvl": 8871091.560372684,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 6.977286479740656e-19,
+            "debt_usd_value": 0,
+            "net_usd_value": 6.977286479740656e-19
+          },
+          "asset_dict": {
+            "0x4d224452801aced8b2f0aebe155379bb5d594381": 1e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+              "chain": "eth",
+              "name": "ApeCoin",
+              "symbol": "APE",
+              "display_symbol": null,
+              "optimized_symbol": "APE",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4d224452801aced8b2f0aebe155379bb5d594381/2357165eac1453c46f526704b51a801b.png",
+              "protocol_id": "apestake",
+              "price": 0.6977286479740655,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1644845135,
+              "amount": 1e-18
+            }
+          ],
+          "update_at": 1727769503,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+                "chain": "eth",
+                "name": "ApeCoin",
+                "symbol": "APE",
+                "display_symbol": null,
+                "optimized_symbol": "APE",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4d224452801aced8b2f0aebe155379bb5d594381/2357165eac1453c46f526704b51a801b.png",
+                "protocol_id": "apestake",
+                "price": 0.6977286479740655,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1644845135,
+                "amount": 1e-18
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x2e9045e7c001056cbcf5ed837f96a8630075a04d",
+            "chain": "eth",
+            "project_id": "parax",
+            "adapter_id": "parasapce_yield",
+            "controller": "0x2e9045e7c001056cbcf5ed837f96a8630075a04d",
+            "index": null,
+            "time_at": 1692715679
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 4.186371887844393e-18,
+            "debt_usd_value": 0,
+            "net_usd_value": 4.186371887844393e-18
+          },
+          "asset_dict": {
+            "0x4d224452801aced8b2f0aebe155379bb5d594381": 6e-18
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+              "chain": "eth",
+              "name": "ApeCoin",
+              "symbol": "APE",
+              "display_symbol": null,
+              "optimized_symbol": "APE",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4d224452801aced8b2f0aebe155379bb5d594381/2357165eac1453c46f526704b51a801b.png",
+              "protocol_id": "apestake",
+              "price": 0.6977286479740655,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1644845135,
+              "amount": 6e-18
+            }
+          ],
+          "update_at": 1727769503,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+                "chain": "eth",
+                "name": "ApeCoin",
+                "symbol": "APE",
+                "display_symbol": null,
+                "optimized_symbol": "APE",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4d224452801aced8b2f0aebe155379bb5d594381/2357165eac1453c46f526704b51a801b.png",
+                "protocol_id": "apestake",
+                "price": 0.6977286479740655,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1644845135,
+                "amount": 6e-18
+              }
+            ]
+          },
+          "proxy_detail": {
+            "project": {
+              "id": "parax",
+              "name": "Parallel ",
+              "site_url": "https://app.parallel.fi",
+              "logo_url": "https://static.debank.com/image/project/logo_url/parax/031d6f5a9510709c304d4e02823b7a13.png"
+            },
+            "proxy_contract_id": "0xe87579e4efd0edb0b046d85338dc0487578f1931"
+          },
+          "pool": {
+            "id": "0x2e9045e7c001056cbcf5ed837f96a8630075a04d",
+            "chain": "eth",
+            "project_id": "parax",
+            "adapter_id": "parasapce_yield",
+            "controller": "0x2e9045e7c001056cbcf5ed837f96a8630075a04d",
+            "index": null,
+            "time_at": 1692715679
+          },
+          "position_index": "0xe87579e4efd0edb0b046d85338dc0487578f1931"
+        }
+      ]
+    },
+    {
+      "id": "sablier",
+      "chain": "eth",
+      "name": "Sablier",
+      "site_url": "https://app.sablier.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/sablier/9e38761f6289bb491c6c9f0863c7ee07.png",
+      "has_supported_portfolio": true,
+      "tvl": 347380478.4147288,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 11731.728178632418,
+            "debt_usd_value": 0,
+            "net_usd_value": 11731.728178632418
+          },
+          "asset_dict": {
+            "0xdb82c0d91e057e05600c8f8dc836beb41da6df14": 24326.593806921675
+          },
+          "asset_token_list": [
+            {
+              "id": "0xdb82c0d91e057e05600c8f8dc836beb41da6df14",
+              "chain": "eth",
+              "name": "Smart Layer Network Token",
+              "symbol": "SLN",
+              "display_symbol": null,
+              "optimized_symbol": "SLN",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xdb82c0d91e057e05600c8f8dc836beb41da6df14/26ce86584ebcd1c92256c9ee81dc283e.png",
+              "protocol_id": "",
+              "price": 0.4822593854177141,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1705629887,
+              "amount": 24326.593806921675,
+              "claimable_amount": 904.804189435337
+            }
+          ],
+          "update_at": 1727841748,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0xdb82c0d91e057e05600c8f8dc836beb41da6df14",
+              "chain": "eth",
+              "name": "Smart Layer Network Token",
+              "symbol": "SLN",
+              "display_symbol": null,
+              "optimized_symbol": "SLN",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xdb82c0d91e057e05600c8f8dc836beb41da6df14/26ce86584ebcd1c92256c9ee81dc283e.png",
+              "protocol_id": "",
+              "price": 0.4822593854177141,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1705629887,
+              "amount": 24326.593806921675,
+              "claimable_amount": 904.804189435337
+            },
+            "end_at": 1740157151
+          },
+          "proxy_detail": {},
+          "position_index": "9146",
+          "pool": {
+            "id": "0xafb979d9afad1ad27c5eff4e27226e3ab9e5dcc9:receiver",
+            "chain": "eth",
+            "project_id": "sablier",
+            "adapter_id": "sablier_vesting_v2_receiver",
+            "controller": "0xafb979d9afad1ad27c5eff4e27226e3ab9e5dcc9",
+            "index": "receiver",
+            "time_at": 1702998383
+          }
+        }
+      ]
+    }
+  ]
+}

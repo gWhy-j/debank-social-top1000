@@ -1,0 +1,242 @@
+{
+  "user": {
+    "name": "Borderless Capital 2",
+    "address": "0x56264e5ec5215c3974cfb550d3aefa6720f5ee9d",
+    "twitterHandle": "borderless_cap",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "arb_sablier",
+      "chain": "arb",
+      "name": "Sablier",
+      "site_url": "https://app.sablier.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/arb_sablier/3358adccad199e9f2cde0dfabdd9bd2a.png",
+      "has_supported_portfolio": true,
+      "tvl": 19729343.438254282,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 45698.373141622724,
+            "debt_usd_value": 0,
+            "net_usd_value": 45698.373141622724
+          },
+          "asset_dict": {
+            "0x577fd586c9e6ba7f2e85e025d5824dbe19896656": 11093333
+          },
+          "asset_token_list": [
+            {
+              "id": "0x577fd586c9e6ba7f2e85e025d5824dbe19896656",
+              "chain": "arb",
+              "name": "Synonym Finance",
+              "symbol": "SYNO",
+              "display_symbol": null,
+              "optimized_symbol": "SYNO",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x577fd586c9e6ba7f2e85e025d5824dbe19896656/54f85568dc0d30d7e4277e5b08fdf036.png",
+              "protocol_id": "arb_synonym",
+              "price": 0.004119444818038251,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1706100175,
+              "amount": 11093333,
+              "claimable_amount": 3810814.943779216
+            }
+          ],
+          "update_at": 1727311865,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x577fd586c9e6ba7f2e85e025d5824dbe19896656",
+              "chain": "arb",
+              "name": "Synonym Finance",
+              "symbol": "SYNO",
+              "display_symbol": null,
+              "optimized_symbol": "SYNO",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x577fd586c9e6ba7f2e85e025d5824dbe19896656/54f85568dc0d30d7e4277e5b08fdf036.png",
+              "protocol_id": "arb_synonym",
+              "price": 0.004119444818038251,
+              "is_verified": false,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1706100175,
+              "amount": 11093333,
+              "claimable_amount": 3810814.943779216
+            },
+            "end_at": 1738816052
+          },
+          "proxy_detail": {},
+          "position_index": "14",
+          "pool": {
+            "id": "0x53f5eeb133b99c6e59108f35bcc7a116da50c5ce:receiver",
+            "chain": "arb",
+            "project_id": "arb_sablier",
+            "adapter_id": "sablier_vesting_v2_receiver",
+            "controller": "0x53f5eeb133b99c6e59108f35bcc7a116da50c5ce",
+            "index": "receiver",
+            "time_at": 1720113536
+          }
+        }
+      ]
+    },
+    {
+      "id": "frax",
+      "chain": "eth",
+      "name": "Frax",
+      "site_url": "https://app.frax.finance",
+      "logo_url": "https://static.debank.com/image/project/logo_url/frax/0bbd098aba20703a84601865177e6d73.png",
+      "has_supported_portfolio": true,
+      "tvl": 649629296.0652462,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 0.11824787569822097,
+            "debt_usd_value": 0,
+            "net_usd_value": 0.11824787569822097
+          },
+          "asset_dict": {
+            "0x5e8422345238f34275888049021821e8e08caa1f": 0.00004638714581266857
+          },
+          "asset_token_list": [
+            {
+              "id": "0x5e8422345238f34275888049021821e8e08caa1f",
+              "chain": "eth",
+              "name": "Frax Ether",
+              "symbol": "frxETH",
+              "display_symbol": null,
+              "optimized_symbol": "frxETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x5e8422345238f34275888049021821e8e08caa1f/74628d212cf16e6183a7242b4ce71b92.png",
+              "protocol_id": "frax",
+              "price": 2549.15178820782,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1665022895,
+              "amount": 0.00004638714581266857
+            }
+          ],
+          "update_at": 1727283291,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0x5e8422345238f34275888049021821e8e08caa1f",
+                "chain": "eth",
+                "name": "Frax Ether",
+                "symbol": "frxETH",
+                "display_symbol": null,
+                "optimized_symbol": "frxETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x5e8422345238f34275888049021821e8e08caa1f/74628d212cf16e6183a7242b4ce71b92.png",
+                "protocol_id": "frax",
+                "price": 2549.15178820782,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1665022895,
+                "amount": 0.00004638714581266857
+              }
+            ],
+            "description": "sfrxETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xac3e018457b222d93114458476f3e3416abbe38f",
+            "chain": "eth",
+            "project_id": "frax",
+            "adapter_id": "token_parse_staked_adapter",
+            "controller": "0xac3e018457b222d93114458476f3e3416abbe38f",
+            "index": null,
+            "time_at": 1665022895
+          }
+        }
+      ]
+    },
+    {
+      "id": "kelpdao",
+      "chain": "eth",
+      "name": "Kelp DAO",
+      "site_url": "https://kelpdao.xyz",
+      "logo_url": "https://static.debank.com/image/project/logo_url/kelpdao/c18eb40161eedcff7a7723759a2aaaf7.png",
+      "has_supported_portfolio": true,
+      "tvl": 782534528.2762089,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2559679.3992748186,
+            "debt_usd_value": 0,
+            "net_usd_value": 2559679.3992748186
+          },
+          "asset_dict": {
+            "eth": 995.3606492721752
+          },
+          "asset_token_list": [
+            {
+              "id": "eth",
+              "chain": "eth",
+              "name": "ETH",
+              "symbol": "ETH",
+              "display_symbol": null,
+              "optimized_symbol": "ETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+              "protocol_id": "",
+              "price": 2571.61,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1483200000,
+              "amount": 995.3606492721752
+            }
+          ],
+          "update_at": 1727293278,
+          "name": "Staked",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "eth",
+                "chain": "eth",
+                "name": "ETH",
+                "symbol": "ETH",
+                "display_symbol": null,
+                "optimized_symbol": "ETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/coin/logo_url/eth/6443cdccced33e204d90cb723c632917.png",
+                "protocol_id": "",
+                "price": 2571.61,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1483200000,
+                "amount": 995.3606492721752
+              }
+            ],
+            "description": "rsETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+            "chain": "eth",
+            "project_id": "kelpdao",
+            "adapter_id": "token_parse_staked_adapter",
+            "controller": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+            "index": null,
+            "time_at": 1702241207
+          }
+        }
+      ]
+    }
+  ]
+}

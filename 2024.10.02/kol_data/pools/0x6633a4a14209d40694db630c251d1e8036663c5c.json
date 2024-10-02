@@ -1,0 +1,88 @@
+{
+  "user": {
+    "name": "Spartan Group 2",
+    "address": "0x6633a4a14209d40694db630c251d1e8036663c5c",
+    "twitterHandle": "TheSpartanGroup",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "sablier",
+      "chain": "eth",
+      "name": "Sablier",
+      "site_url": "https://app.sablier.com/",
+      "logo_url": "https://static.debank.com/image/project/logo_url/sablier/9e38761f6289bb491c6c9f0863c7ee07.png",
+      "has_supported_portfolio": true,
+      "tvl": 347380478.4147288,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 39206.43138908,
+            "debt_usd_value": 0,
+            "net_usd_value": 39206.43138908
+          },
+          "asset_dict": {
+            "0x4123a133ae3c521fd134d7b13a2dec35b56c2463": 4312189.99
+          },
+          "asset_token_list": [
+            {
+              "id": "0x4123a133ae3c521fd134d7b13a2dec35b56c2463",
+              "chain": "eth",
+              "name": "Qredo Token",
+              "symbol": "QRDO",
+              "display_symbol": "OPEN",
+              "optimized_symbol": "OPEN",
+              "decimals": 8,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4123a133ae3c521fd134d7b13a2dec35b56c2463/e6a8e622effc6f1bdf94f3f62acd0cef.png",
+              "protocol_id": "opencustody",
+              "price": 0.009092,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1624287774,
+              "amount": 4312189.99,
+              "claimable_amount": 14384.09230118
+            }
+          ],
+          "update_at": 1727803890,
+          "name": "Vesting",
+          "detail_types": [
+            "vesting"
+          ],
+          "detail": {
+            "token": {
+              "id": "0x4123a133ae3c521fd134d7b13a2dec35b56c2463",
+              "chain": "eth",
+              "name": "Qredo Token",
+              "symbol": "QRDO",
+              "display_symbol": "OPEN",
+              "optimized_symbol": "OPEN",
+              "decimals": 8,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x4123a133ae3c521fd134d7b13a2dec35b56c2463/e6a8e622effc6f1bdf94f3f62acd0cef.png",
+              "protocol_id": "opencustody",
+              "price": 0.009092,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1624287774,
+              "amount": 4312189.99,
+              "claimable_amount": 14384.09230118
+            },
+            "end_at": 1763104500
+          },
+          "proxy_detail": {},
+          "position_index": "18761",
+          "pool": {
+            "id": "0xafb979d9afad1ad27c5eff4e27226e3ab9e5dcc9:receiver",
+            "chain": "eth",
+            "project_id": "sablier",
+            "adapter_id": "sablier_vesting_v2_receiver",
+            "controller": "0xafb979d9afad1ad27c5eff4e27226e3ab9e5dcc9",
+            "index": "receiver",
+            "time_at": 1702998383
+          }
+        }
+      ]
+    }
+  ]
+}

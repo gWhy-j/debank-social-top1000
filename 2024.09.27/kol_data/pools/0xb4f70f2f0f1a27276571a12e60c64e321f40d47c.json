@@ -1,0 +1,307 @@
+{
+  "user": {
+    "name": "Defiance Capital 3",
+    "address": "0xb4f70f2f0f1a27276571a12e60c64e321f40d47c",
+    "twitterHandle": "DeFianceCapital",
+    "profileImageUrl": "https://1tx-media-prod.s3.ap-northeast-2.amazonaws.com/whiz_default_profile.svg"
+  },
+  "portfolio": [
+    {
+      "id": "aave2",
+      "chain": "eth",
+      "name": "Aave V2",
+      "site_url": "https://app.aave.com",
+      "logo_url": "https://static.debank.com/image/project/logo_url/aave2/b8d1ef85570855176b102edf8cda6f8d.png",
+      "has_supported_portfolio": true,
+      "tvl": 1488904642.7273333,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 12909.380930446825,
+            "debt_usd_value": 0,
+            "net_usd_value": 12909.380930446825
+          },
+          "asset_dict": {
+            "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": 78.06109233905694
+          },
+          "asset_token_list": [
+            {
+              "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+              "chain": "eth",
+              "name": "Aave Token",
+              "symbol": "AAVE",
+              "display_symbol": null,
+              "optimized_symbol": "AAVE",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9/7baf403c819f679dc1c6571d9d978f21.png",
+              "protocol_id": "aave",
+              "price": 165.37535593756698,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1600970788,
+              "amount": 78.06109233905694
+            }
+          ],
+          "update_at": 1727393409,
+          "name": "Lending",
+          "detail_types": [
+            "lending"
+          ],
+          "detail": {
+            "supply_token_list": [],
+            "reward_token_list": [
+              {
+                "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "chain": "eth",
+                "name": "Aave Token",
+                "symbol": "AAVE",
+                "display_symbol": null,
+                "optimized_symbol": "AAVE",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9/7baf403c819f679dc1c6571d9d978f21.png",
+                "protocol_id": "aave",
+                "price": 165.37535593756698,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1600970788,
+                "amount": 78.06109233905694
+              }
+            ],
+            "health_rate": 1.157920892373162e+59
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+            "chain": "eth",
+            "project_id": "aave2",
+            "adapter_id": "aave_proxy_lending",
+            "controller": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+            "index": null,
+            "time_at": 1606771548
+          }
+        }
+      ]
+    },
+    {
+      "id": "morphoblue",
+      "chain": "eth",
+      "name": "Morpho",
+      "site_url": "https://app.morpho.org",
+      "logo_url": "https://static.debank.com/image/project/logo_url/morphoblue/4411a843b5778b39ac04bb0f7743c153.png",
+      "has_supported_portfolio": true,
+      "tvl": 896781192.8634553,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 2658340.069540344,
+            "debt_usd_value": 0,
+            "net_usd_value": 2658340.069540344
+          },
+          "asset_dict": {
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": 1008.8845128866211
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "chain": "eth",
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "display_symbol": null,
+              "optimized_symbol": "WETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png",
+              "protocol_id": "weth",
+              "price": 2634.93,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1513077455,
+              "amount": 1008.8845128866211
+            }
+          ],
+          "update_at": 1727385241,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "chain": "eth",
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "display_symbol": null,
+                "optimized_symbol": "WETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png",
+                "protocol_id": "weth",
+                "price": 2634.93,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1513077455,
+                "amount": 1008.8845128866211
+              }
+            ],
+            "description": "Gauntlet WETH Prime"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x2371e134e3455e0593363cbf89d3b6cf53740618",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "tokenized_vault_yield",
+            "controller": "0x2371e134e3455e0593363cbf89d3b6cf53740618",
+            "index": null,
+            "time_at": 1709680067
+          }
+        },
+        {
+          "stats": {
+            "asset_usd_value": 3124100.776335032,
+            "debt_usd_value": 0,
+            "net_usd_value": 3124100.776335032
+          },
+          "asset_dict": {
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": 1185.6484902198663
+          },
+          "asset_token_list": [
+            {
+              "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "chain": "eth",
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "display_symbol": null,
+              "optimized_symbol": "WETH",
+              "decimals": 18,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png",
+              "protocol_id": "weth",
+              "price": 2634.93,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1513077455,
+              "amount": 1185.6484902198663
+            }
+          ],
+          "update_at": 1727385241,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "chain": "eth",
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "display_symbol": null,
+                "optimized_symbol": "WETH",
+                "decimals": 18,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png",
+                "protocol_id": "weth",
+                "price": 2634.93,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1513077455,
+                "amount": 1185.6484902198663
+              }
+            ],
+            "description": "Flagship ETH"
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0x38989bba00bdf8181f4082995b3deae96163ac5d",
+            "chain": "eth",
+            "project_id": "morphoblue",
+            "adapter_id": "tokenized_vault_yield",
+            "controller": "0x38989bba00bdf8181f4082995b3deae96163ac5d",
+            "index": null,
+            "time_at": 1704292895
+          }
+        }
+      ]
+    },
+    {
+      "id": "openeden",
+      "chain": "eth",
+      "name": "OpenEden",
+      "site_url": "https://app.openeden.com",
+      "logo_url": "https://static.debank.com/image/project/logo_url/openeden/f74a86ff5c75ccf8cc0fce3c33a394f2.png",
+      "has_supported_portfolio": true,
+      "tvl": 110662393.74636452,
+      "portfolio_item_list": [
+        {
+          "stats": {
+            "asset_usd_value": 1043097.6321388448,
+            "debt_usd_value": 0,
+            "net_usd_value": 1043097.6321388448
+          },
+          "asset_dict": {
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 1043201.9419020587
+          },
+          "asset_token_list": [
+            {
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "chain": "eth",
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "display_symbol": null,
+              "optimized_symbol": "USDC",
+              "decimals": 6,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "protocol_id": "",
+              "price": 0.9999000099990001,
+              "is_verified": true,
+              "is_core": true,
+              "is_wallet": true,
+              "time_at": 1533324504,
+              "amount": 1043201.9419020587
+            }
+          ],
+          "update_at": 1727393409,
+          "name": "Yield",
+          "detail_types": [
+            "common"
+          ],
+          "detail": {
+            "supply_token_list": [
+              {
+                "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "chain": "eth",
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "display_symbol": null,
+                "optimized_symbol": "USDC",
+                "decimals": 6,
+                "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+                "protocol_id": "",
+                "price": 0.9999000099990001,
+                "is_verified": true,
+                "is_core": true,
+                "is_wallet": true,
+                "time_at": 1533324504,
+                "amount": 1043201.9419020587
+              }
+            ]
+          },
+          "proxy_detail": {},
+          "pool": {
+            "id": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+            "chain": "eth",
+            "project_id": "openeden",
+            "adapter_id": "openeden_yield",
+            "controller": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+            "index": null,
+            "time_at": 1697617307
+          }
+        }
+      ]
+    }
+  ]
+}
